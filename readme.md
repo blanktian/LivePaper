@@ -4,14 +4,27 @@
 	</a>
 	<h1>LivePaper</h1>
 	<p>
-		<b>Make any website your Mac desktop wallpaper</b>
+		<b>让任何网站成为您的 Mac 桌面壁纸</b>
 	</p>
 	<br>
 	<br>
 	<br>
 </div>
 
-LivePaper enables you to have a highly dynamic desktop wallpaper. You could display your favorite news site, Facebook feed, or a random beautiful scenery photo. The use-cases are limitless. You could even set an animated GIF as wallpaper. You can even add multiple websites and easily switch between them.
+LivePaper 是一款强大的 Mac 动态壁纸应用，它允许您将任何网站设置为桌面壁纸。您可以展示您喜欢的新闻网站、社交媒体feed，或者随机的精美风景照片。使用场景非常丰富，甚至可以将动态 GIF 设置为壁纸。您还可以添加多个网站并轻松切换。
+
+## 使用场景
+
+- **随机精美图片**
+  - 使用 Unsplash API 获取高质量图片
+  - 支持自定义关键词和尺寸
+- **日历展示**
+  - 支持 Google Calendar 或 Outlook 365
+- **个人数据统计**
+  - 可以自定义网页展示个人数据
+- **动态 GIF 展示**
+- **自定义网页**
+  - 可以使用 GitHub Pages、CodePen 等托管自己的网页
 
 ## Use-cases
 
