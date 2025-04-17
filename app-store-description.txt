@@ -76,4 +76,4 @@ Make a shortcut in the Shortcuts app that uses the “Set Current Website” act
 
 Click the “Send Feedback” button in the app.
 
-Originally created by Sindre Sorhus, now maintained by blank.
+Originally created by Sindre Sorhus, now maintained by Blank Tian.

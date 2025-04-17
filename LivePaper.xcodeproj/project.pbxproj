@@ -98,7 +98,7 @@
 		E32421372384E9D900D28A91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E324213A2384E9D900D28A91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E324213F2384E9D900D28A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E32421402384E9D900D28A91 /* Plash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Plash.entitlements; sourceTree = "<group>"; };
+		E32421402384E9D900D28A91 /* LivePaper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LivePaper.entitlements; sourceTree = "<group>"; };
 		E32421462384EB4E00D28A91 /* DesktopWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DesktopWindow.swift; sourceTree = "<group>"; usesTabs = 1; };
 		E32421552384F09D00D28A91 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Constants.swift; sourceTree = "<group>"; usesTabs = 1; };
 		E32421572384F0E600D28A91 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Utilities.swift; sourceTree = "<group>"; usesTabs = 1; };
@@ -358,7 +358,7 @@
 			isa = PBXGroup;
 			children = (
 				E324213F2384E9D900D28A91 /* Info.plist */,
-				E32421402384E9D900D28A91 /* Plash.entitlements */,
+				E32421402384E9D900D28A91 /* LivePaper.entitlements */,
 				E3FA21AC23C74E6B00059E43 /* InternetAccessPolicy.json */,
 			);
 			name = Other;
@@ -840,7 +840,7 @@
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "MIT License © Sindre Sorhus";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Original work © Sindre Sorhus\nModified work © Blank Tian\nMIT License";
 				INFOPLIST_KEY_NSLocationUsageDescription = No;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = No;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -873,7 +873,7 @@
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "MIT License © Sindre Sorhus";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Original work © Sindre Sorhus\nModified work © Blank Tian\nMIT License";
 				INFOPLIST_KEY_NSLocationUsageDescription = No;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = No;
 				LD_RUNPATH_SEARCH_PATHS = (
