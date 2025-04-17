@@ -1,5 +1,5 @@
 <div align="center">
-	<a href="https://github.com/blank/LivePaper">
+	<a href="https://github.com/blanktian/LivePaper">
 		<img src="Stuff/AppIcon-readme.png" width="200" height="200">
 	</a>
 	<h1>LivePaper</h1>
@@ -298,8 +298,8 @@ This project is a fork of [Plash](https://github.com/sindresorhus/Plash) by [Sin
 ### Authors
 
 - Original author: [Sindre Sorhus](https://github.com/sindresorhus)
-- Current maintainer: [blank](https://github.com/blank)
+- Current maintainer: [blank](https://github.com/blanktian)
 
 ## License
 
-MIT © [Sindre Sorhus](https://sindresorhus.com), [blank](https://github.com/blank)
+MIT © [Sindre Sorhus](https://sindresorhus.com), [blank](https://github.com/blanktian)
