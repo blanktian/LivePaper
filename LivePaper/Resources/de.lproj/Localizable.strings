@@ -1,0 +1,179 @@
+/* Hauptoberfläche */
+"websites.title" = "Websiteliste";
+"websites.empty" = "Keine Websites";
+"websites.add" = "Website hinzufügen";
+"websites.make_current" = "Als aktuell festlegen";
+"websites.edit" = "Bearbeiten...";
+"websites.delete" = "Löschen";
+"websites.manage" = "Websites verwalten...";
+
+/* Menüeinträge */
+"menu.send_feedback" = "Feedback senden...";
+"menu.examples" = "Beispiele";
+"menu.tips" = "Tipps";
+"menu.faq" = "FAQ";
+"menu.scripting" = "Skripterstellung";
+"menu.website" = "Website";
+"menu.rate_app" = "App bewerten";
+"menu.reload" = "Neu laden";
+"menu.browsing_mode" = "Browsing-Modus";
+"menu.next" = "Nächste";
+"menu.previous" = "Vorherige";
+"menu.random" = "Zufällig";
+"menu.switch" = "Wechseln";
+"menu.edit" = "Bearbeiten...";
+"menu.more_apps" = "Weitere Apps";
+"menu.settings" = "Einstellungen...";
+"menu.quit" = "LivePaper beenden";
+"menu.enable" = "Aktivieren";
+"menu.disable" = "Deaktivieren";
+"menu.disabled_on_battery" = "Im Akkubetrieb deaktiviert";
+"menu.more" = "Mehr";
+
+/* Kontextmenü */
+"context.open_image" = "Bild öffnen";
+"context.open_video" = "Video öffnen";
+"context.open_frame" = "Frame öffnen";
+"context.open_link" = "Link öffnen";
+"context.actual_size" = "Tatsächliche Größe";
+"context.zoom_in" = "Vergrößern";
+"context.zoom_out" = "Verkleinern";
+"context.update_url" = "Auf aktuelle Website aktualisieren";
+"context.update_url.tooltip" = "Die in LivePaper gespeicherte Website-URL auf die aktuelle URL aktualisieren";
+"context.show_menu_bar_icon" = "Menüleistensymbol anzeigen";
+
+/* Einstellungen */
+"settings.general" = "Allgemein";
+"settings.shortcuts" = "Tastenkürzel";
+"settings.advanced" = "Erweitert";
+"settings.language" = "Sprache";
+"settings.language.system" = "System";
+"settings.language.english" = "English";
+"settings.language.chinese_simplified" = "简体中文";
+"settings.language.chinese_traditional" = "繁體中文";
+"settings.language.spanish" = "Español";
+"settings.language.french" = "Français";
+"settings.language.german" = "Deutsch";
+"settings.language.russian" = "Русский";
+"settings.language.portuguese" = "Português";
+"settings.language.japanese" = "日本語";
+"settings.language.korean" = "한국어";
+"settings.language.arabic" = "العربية";
+"settings.language.hindi" = "हिंदी";
+"settings.language.malay" = "Bahasa Melayu";
+"settings.language.italian" = "Italiano";
+"settings.language.turkish" = "Türkçe";
+"settings.language.help" = "Wählen Sie die Anzeigesprache der Anwendung. Änderungen erfordern einen Neustart der Anwendung.";
+"settings.language.restart_required" = "Neustart erforderlich";
+"settings.language.restart_message" = "Die Spracheinstellungen wurden geändert. Die App muss neu gestartet werden, damit die Änderungen wirksam werden. Möchten Sie jetzt neu starten?";
+"settings.launch_at_login" = "Beim Login starten";
+"settings.reload_interval" = "Neu laden alle";
+"settings.reload_interval.minutes" = "Minuten";
+"settings.reload_interval.accessibility" = "Aktualisierungsintervall (Minuten)";
+"settings.opacity" = "Deckkraft";
+"settings.opacity.help" = "Der Browsing-Modus verwendet immer volle Deckkraft.";
+"settings.display" = "Anzeigen auf";
+"settings.display.multi_monitor" = "Multi-Monitor-Unterstützung >";
+"settings.show_on_all_spaces" = "Auf allen Spaces anzeigen";
+"settings.show_on_all_spaces.help" = "Wenn deaktiviert, erscheint LivePaper beim Start auf dem aktiven Space.";
+"settings.bring_to_front" = "Im Browsing-Modus in den Vordergrund bringen";
+"settings.bring_to_front.help" = "Website-Fenster im Vordergrund halten, wenn der Browsing-Modus aktiv ist.";
+"settings.deactivate_on_battery" = "Im Akkubetrieb deaktivieren";
+"settings.open_links_in_browser" = "Externe Links im Standardbrowser öffnen";
+"settings.open_links_in_browser.help" = "Wenn die Website eine Anmeldung erfordert, sollten Sie dies während der Anmeldung deaktivieren, da die Website möglicherweise zu anderen Seiten navigieren muss.";
+"settings.mute_audio" = "Ton stummschalten";
+"settings.hide_menu_bar_icon" = "Menüleistensymbol ausblenden";
+"settings.hide_menu_bar_icon.alert" = "Wenn Sie auf das LivePaper-Menü zugreifen müssen, starten Sie die App neu und das Menüleistensymbol wird für 5 Sekunden angezeigt.";
+"settings.clear_website_data" = "Alle Website-Daten löschen";
+"settings.clear_website_data.help" = "Löscht alle Cookies, lokalen Speicher, Cache usw.";
+
+/* Kurzbefehle */
+"shortcuts.toggle_enabled" = "Aktiviert umschalten";
+"shortcuts.toggle_browsing_mode" = "Browsing-Modus umschalten";
+"shortcuts.reload" = "Website neu laden";
+"shortcuts.next_website" = "Nächste Website";
+"shortcuts.previous_website" = "Vorherige Website";
+"shortcuts.random_website" = "Zufällige Website";
+
+/* Website hinzufügen */
+"add_website.url" = "URL";
+"add_website.title" = "Titel";
+"add_website.local_website" = "Lokale Website...";
+"add_website.choose_local.title" = "Lokale Website auswählen";
+"add_website.choose_local.message" = "Bitte wählen Sie ein Verzeichnis mit einer \"index.html\"-Datei.";
+"add_website.choose_local.prompt" = "Auswählen";
+"add_website.choose_local.error" = "Bitte wählen Sie ein Verzeichnis mit einer \"index.html\"-Datei.";
+"add_website.example" = "Zum Beispiel können Sie";
+"add_website.example.show_time" = "die Zeit anzeigen.";
+"add_website.invert_colors" = "Farben invertieren";
+"add_website.invert_colors.help" = "Erstellt einen simulierten Dark Mode für Websites ohne nativen Dark Mode durch Invertierung aller Farben.";
+"add_website.print_styles" = "Druckstile verwenden";
+"add_website.print_styles.help" = "Erzwingt die Verwendung von Druckstilen (\"@media print\"), falls die Website diese hat. Manche Websites haben eine einfachere Darstellung für den Druck.";
+"add_website.css.title" = "CSS";
+"add_website.css.help" = "Hiermit können Sie die Website mit CSS modifizieren. Sie können zum Beispiel Farben ändern oder unnötige Elemente ausblenden.";
+"add_website.javascript.title" = "JavaScript";
+"add_website.javascript.help" = "Hiermit können Sie die Website mit JavaScript modifizieren. Bevorzugen Sie wenn möglich CSS.";
+"add_website.advanced" = "Erweiterte Einstellungen";
+"add_website.allow_self_signed" = "Selbstsigniertes Zertifikat erlauben";
+
+/* Willkommensbildschirm */
+"welcome.title" = "Willkommen bei LivePaper!";
+"welcome.message" = "LivePaper befindet sich in der Menüleiste (das Tropfen-Symbol oben rechts auf Ihrem Bildschirm). Klicken Sie darauf und wählen Sie \"Website hinzufügen...\", um zu beginnen.\n\nVerwenden Sie den \"Browsing-Modus\", wenn Sie sich bei einer Website anmelden oder andere Interaktionen durchführen müssen.\n\nHinweis: Die Multi-Monitor-Unterstützung ist derzeit auf die Auswahl des Bildschirms beschränkt, auf dem die Website angezeigt werden soll.";
+"welcome.continue" = "Fortfahren";
+"welcome.feedback.title" = "Feedback willkommen";
+"welcome.feedback.message" = "Wenn Sie Feedback, Fehlerberichte oder Funktionswünsche haben, verwenden Sie bitte die Feedback-Schaltfläche in der App. Ich antworte auf alle Einsendungen.";
+"welcome.get_started" = "Mit LivePaper beginnen";
+
+/* Browsing-Modus-Tipps */
+"browsing_mode.tip.title" = "Der Browsing-Modus ermöglicht es Ihnen, temporär mit der Website zu interagieren. Zum Beispiel, um sich anzumelden oder zu einer bestimmten Position zu scrollen.";
+"browsing_mode.tip.message" = "Wenn Sie die Website nicht sehen können, müssen Sie möglicherweise einige Fenster ausblenden, um den Desktop anzuzeigen.";
+
+/* Bearbeitungstipps */
+"edit.tip" = "Doppelklicken Sie auf Websites in der Liste, um sie zu bearbeiten, den Dark Mode umzuschalten, benutzerdefiniertes CSS/JavaScript hinzuzufügen und mehr.";
+
+/* Fehlermeldungen */
+"error.invalid_add_url" = "Ungültige URL für den \"add\"-Befehl.";
+"error.unsupported_command" = "Nicht unterstützter Befehl: \"%@\".";
+"error.server_not_found" = "Verbindung zum Server nicht möglich";
+
+/* Einstellungsoptionen */
+"settings.invert_colors.never" = "Nie";
+"settings.invert_colors.always" = "Immer";
+"settings.invert_colors.dark_mode" = "Im Dark Mode";
+"settings.invert_colors.title" = "Farben invertieren";
+"settings.print_styles" = "Druckstile verwenden";
+"settings.print_styles.help" = "Erzwingt die Verwendung von Druckstilen (\"@media print\"), falls die Website diese hat. Manche Websites haben eine einfachere Darstellung für den Druck.";
+"settings.css.title" = "CSS";
+"settings.css.help" = "Hiermit können Sie die Website mit CSS modifizieren. Sie können zum Beispiel Farben ändern oder unnötige Elemente ausblenden.";
+"settings.more_ideas" = "Weitere Ideen";
+"settings.allow_self_signed" = "Selbstsigniertes Zertifikat erlauben";
+
+/* Tooltips */
+"tooltip.update_url" = "Die in LivePaper gespeicherte Website-URL auf die aktuelle URL aktualisieren";
+
+/* Dialogschaltflächen */
+"dialog.keep" = "Behalten";
+"dialog.dont_keep" = "Nicht behalten";
+"dialog.cancel" = "Abbrechen";
+"dialog.revert" = "Zurücksetzen";
+"dialog.done" = "Fertig";
+"dialog.add" = "Hinzufügen";
+"dialog.restart_now" = "Jetzt neu starten";
+"dialog.restart_later" = "Später neu starten";
+
+/* Website-bezogene Zeichenfolgen */
+"website.advanced_settings" = "Erweiterte Einstellungen";
+"website.allow_self_signed_certificate" = "Selbstsigniertes Zertifikat erlauben";
+"website.edit_tip" = "Doppelklicken Sie auf eine Website in der Liste, um sie zu bearbeiten, den Dark Mode umzuschalten, benutzerdefiniertes CSS/JavaScript hinzuzufügen usw.";
+"website.use_print_styles" = "Druckstile verwenden";
+"website.use_print_styles.help" = "Erzwingt die Verwendung von Druckstilen (\"@media print\"), falls die Website diese hat. Manche Websites haben eine einfachere Darstellung für den Druck.";
+"website.css" = "CSS";
+"website.css.help" = "Hiermit können Sie die Website mit CSS modifizieren. Sie können zum Beispiel Farben ändern oder unnötige Elemente ausblenden.";
+"website.javascript" = "JavaScript";
+"website.javascript.help" = "Hiermit können Sie die Website mit JavaScript modifizieren.";
+"website.advanced" = "Erweitert";
+"website.invert_colors" = "Farben invertieren";
+"website.invert_colors.never" = "Nie";
+"website.invert_colors.always" = "Immer";
+"website.invert_colors.dark_mode" = "Im Dark Mode";
+"website.invert_colors.help" = "Erstellt einen simulierten Dark Mode für Websites ohne nativen Dark Mode durch Invertierung aller Farben."; 

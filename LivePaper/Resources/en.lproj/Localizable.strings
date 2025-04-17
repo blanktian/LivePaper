@@ -1,0 +1,179 @@
+/* Main Interface */
+"websites.title" = "Website List";
+"websites.empty" = "No Websites";
+"websites.add" = "Add Website";
+"websites.make_current" = "Set as Current";
+"websites.edit" = "Edit...";
+"websites.delete" = "Delete";
+"websites.manage" = "Manage Websites...";
+
+/* Menu Items */
+"menu.send_feedback" = "Send Feedback...";
+"menu.examples" = "Examples";
+"menu.tips" = "Tips";
+"menu.faq" = "FAQ";
+"menu.scripting" = "Scripting";
+"menu.website" = "Website";
+"menu.rate_app" = "Rate App";
+"menu.reload" = "Reload";
+"menu.browsing_mode" = "Browsing Mode";
+"menu.next" = "Next";
+"menu.previous" = "Previous";
+"menu.random" = "Random";
+"menu.switch" = "Switch";
+"menu.edit" = "Edit...";
+"menu.more_apps" = "More Apps";
+"menu.settings" = "Settings...";
+"menu.quit" = "Quit LivePaper";
+"menu.enable" = "Enable";
+"menu.disable" = "Disable";
+"menu.disabled_on_battery" = "Disabled on Battery";
+"menu.more" = "More";
+
+/* Context Menu */
+"context.open_image" = "Open Image";
+"context.open_video" = "Open Video";
+"context.open_frame" = "Open Frame";
+"context.open_link" = "Open Link";
+"context.actual_size" = "Actual Size";
+"context.zoom_in" = "Zoom In";
+"context.zoom_out" = "Zoom Out";
+"context.update_url" = "Update to Current Website";
+"context.update_url.tooltip" = "Update the stored website URL in LivePaper to the current URL";
+"context.show_menu_bar_icon" = "Show Menu Bar Icon";
+
+/* Settings */
+"settings.general" = "General";
+"settings.shortcuts" = "Shortcuts";
+"settings.advanced" = "Advanced";
+"settings.language" = "Language";
+"settings.language.system" = "System Default";
+"settings.language.english" = "English";
+"settings.language.chinese_simplified" = "Simplified Chinese";
+"settings.language.chinese_traditional" = "Traditional Chinese";
+"settings.language.spanish" = "Español";
+"settings.language.french" = "Français";
+"settings.language.german" = "Deutsch";
+"settings.language.russian" = "Русский";
+"settings.language.portuguese" = "Português";
+"settings.language.japanese" = "日本語";
+"settings.language.korean" = "한국어";
+"settings.language.arabic" = "العربية";
+"settings.language.hindi" = "हिंदी";
+"settings.language.malay" = "Bahasa Melayu";
+"settings.language.italian" = "Italian";
+"settings.language.turkish" = "Turkish";
+"settings.language.help" = "Choose the display language for the app interface. Changes require app restart to take effect.";
+"settings.language.restart_required" = "Restart Required";
+"settings.language.restart_message" = "Language settings have been changed. The app needs to restart for changes to take effect. Would you like to restart now?";
+"settings.launch_at_login" = "Launch at Login";
+"settings.reload_interval" = "Reload every";
+"settings.reload_interval.minutes" = "minutes";
+"settings.reload_interval.accessibility" = "Reload interval (minutes)";
+"settings.opacity" = "Opacity";
+"settings.opacity.help" = "Browsing mode always uses full opacity.";
+"settings.display" = "Display on";
+"settings.display.multi_monitor" = "Multi-Monitor Support >";
+"settings.show_on_all_spaces" = "Show on All Spaces";
+"settings.show_on_all_spaces.help" = "When disabled, LivePaper will appear on the active space at launch.";
+"settings.bring_to_front" = "Bring to Front in Browsing Mode";
+"settings.bring_to_front.help" = "Keep the website window on top when browsing mode is active.";
+"settings.deactivate_on_battery" = "Deactivate on Battery";
+"settings.open_links_in_browser" = "Open External Links in Default Browser";
+"settings.open_links_in_browser.help" = "If the website requires login, you should disable this while logging in as the website might need you to navigate to other pages and you don't want those to open in the browser instead of LivePaper.";
+"settings.mute_audio" = "Mute Audio";
+"settings.hide_menu_bar_icon" = "Hide Menu Bar Icon";
+"settings.hide_menu_bar_icon.alert" = "If you need to access the LivePaper menu, restart the app and the menu bar icon will show for 5 seconds.";
+"settings.clear_website_data" = "Clear All Website Data";
+"settings.clear_website_data.help" = "Clears all cookies, local storage, cache, etc.";
+
+/* Shortcuts */
+"shortcuts.toggle_enabled" = "Toggle Enabled";
+"shortcuts.toggle_browsing_mode" = "Toggle Browsing Mode";
+"shortcuts.reload" = "Reload Website";
+"shortcuts.next_website" = "Next Website";
+"shortcuts.previous_website" = "Previous Website";
+"shortcuts.random_website" = "Random Website";
+
+/* Add Website */
+"add_website.url" = "URL";
+"add_website.title" = "Title";
+"add_website.local_website" = "Local Website...";
+"add_website.choose_local.title" = "Choose Local Website";
+"add_website.choose_local.message" = "Please select a directory containing an \"index.html\" file.";
+"add_website.choose_local.prompt" = "Choose";
+"add_website.choose_local.error" = "Please select a directory containing an \"index.html\" file.";
+"add_website.example" = "For example, you can";
+"add_website.example.show_time" = "show the time.";
+"add_website.invert_colors" = "Invert Colors";
+"add_website.invert_colors.help" = "Creates a simulated dark mode for websites that don't have a native dark mode by inverting all colors on the website.";
+"add_website.print_styles" = "Use Print Styles";
+"add_website.print_styles.help" = "Forces the use of print styles (\"@media print\") if the website has them. Some websites have a simpler presentation for printing, like Google Calendar.";
+"add_website.css.title" = "CSS";
+"add_website.css.help" = "This lets you modify the website using CSS. For example, you can change some colors or hide unnecessary elements.";
+"add_website.javascript.title" = "JavaScript";
+"add_website.javascript.help" = "This lets you modify the website using JavaScript. Prefer CSS when possible. You can use \"await\" at the top-level.";
+"add_website.advanced" = "Advanced Settings";
+"add_website.allow_self_signed" = "Allow Self-Signed Certificate";
+
+/* Welcome Screen */
+"welcome.title" = "Welcome to LivePaper!";
+"welcome.message" = "LivePaper lives in the menu bar (the droplet icon in the top-right of your screen). Click it and choose \"Add Website...\" to get started.\n\nUse \"Browsing Mode\" when you need to log in to a website or perform other interactions.\n\nNote: Multi-monitor support is currently limited to choosing which display to show the website on.";
+"welcome.continue" = "Continue";
+"welcome.feedback.title" = "Feedback Welcome";
+"welcome.feedback.message" = "If you have any feedback, bug reports, or feature requests, please use the feedback button in the app. I respond to all submissions.";
+"welcome.get_started" = "Get Started with LivePaper";
+
+/* Browsing Mode Tips */
+"browsing_mode.tip.title" = "Browsing mode lets you temporarily interact with the website. For example, to log in or scroll to a specific position on the website.";
+"browsing_mode.tip.message" = "If you can't see the website, you might need to hide some windows to reveal the desktop.";
+
+/* Edit Tips */
+"edit.tip" = "Double-click websites in the list to edit them, toggle dark mode, add custom CSS/JavaScript, and more.";
+
+/* Error Messages */
+"error.invalid_add_url" = "Invalid URL for \"add\" command.";
+"error.unsupported_command" = "Unsupported command: \"%@\".";
+"error.server_not_found" = "Unable to connect to server";
+
+/* Settings Options */
+"settings.invert_colors.never" = "Never";
+"settings.invert_colors.always" = "Always";
+"settings.invert_colors.dark_mode" = "In Dark Mode";
+"settings.invert_colors.title" = "Invert Colors";
+"settings.print_styles" = "Use Print Styles";
+"settings.print_styles.help" = "Forces the use of print styles (\"@media print\") if the website has them. Some websites have a simpler presentation for printing, like Google Calendar.";
+"settings.css.title" = "CSS";
+"settings.css.help" = "This lets you modify the website using CSS. For example, you can change some colors or hide unnecessary elements.";
+"settings.more_ideas" = "More Ideas";
+"settings.allow_self_signed" = "Allow Self-Signed Certificate";
+
+/* Tooltips */
+"tooltip.update_url" = "Update the stored website URL in LivePaper to the current URL";
+
+/* Dialog Buttons */
+"dialog.keep" = "Keep";
+"dialog.dont_keep" = "Don't Keep";
+"dialog.cancel" = "Cancel";
+"dialog.revert" = "Revert";
+"dialog.done" = "Done";
+"dialog.add" = "Add";
+"dialog.restart_now" = "Restart Now";
+"dialog.restart_later" = "Restart Later";
+
+/* Website related strings */
+"website.advanced_settings" = "Advanced Settings";
+"website.allow_self_signed_certificate" = "Allow Self-signed Certificate";
+"website.edit_tip" = "Double-click a website in the list to edit it, toggle dark mode, add custom CSS/JavaScript, etc.";
+"website.use_print_styles" = "Use Print Styles";
+"website.use_print_styles.help" = "Force the use of print styles (\"@media print\") if the website has them. Some websites have a simpler presentation for printing, like Google Calendar.";
+"website.css" = "CSS";
+"website.css.help" = "This allows you to modify the website using CSS. For example, you can change some colors or hide unnecessary elements.";
+"website.javascript" = "JavaScript";
+"website.javascript.help" = "This allows you to modify the website using JavaScript.";
+"website.advanced" = "Advanced";
+"website.invert_colors" = "Invert Colors";
+"website.invert_colors.never" = "Never";
+"website.invert_colors.always" = "Always";
+"website.invert_colors.dark_mode" = "In Dark Mode";
+"website.invert_colors.help" = "Creates a simulated dark mode for websites that don't have a native dark mode by inverting all colors on the website.";

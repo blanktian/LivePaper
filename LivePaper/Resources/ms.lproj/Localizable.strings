@@ -1,0 +1,179 @@
+/* Antara Muka Utama */
+"websites.title" = "Senarai Laman Web";
+"websites.empty" = "Tiada Laman Web";
+"websites.add" = "Tambah Laman Web";
+"websites.make_current" = "Tetapkan Sebagai Semasa";
+"websites.edit" = "Sunting...";
+"websites.delete" = "Padam";
+"websites.manage" = "Urus Laman Web...";
+
+/* Item Menu */
+"menu.send_feedback" = "Hantar Maklum Balas...";
+"menu.examples" = "Contoh";
+"menu.tips" = "Petua";
+"menu.faq" = "Soalan Lazim";
+"menu.scripting" = "Skrip";
+"menu.website" = "Laman Web";
+"menu.rate_app" = "Nilai Aplikasi";
+"menu.reload" = "Muat Semula";
+"menu.browsing_mode" = "Mod Pelayaran";
+"menu.next" = "Seterusnya";
+"menu.previous" = "Sebelumnya";
+"menu.random" = "Rawak";
+"menu.switch" = "Tukar";
+"menu.edit" = "Sunting...";
+"menu.more_apps" = "Lebih Banyak Aplikasi";
+"menu.settings" = "Tetapan...";
+"menu.quit" = "Keluar LivePaper";
+"menu.enable" = "Aktifkan";
+"menu.disable" = "Nyahaktifkan";
+"menu.disabled_on_battery" = "Dinyahaktifkan pada Bateri";
+"menu.more" = "Lagi";
+
+/* Menu Konteks */
+"context.open_image" = "Buka Imej";
+"context.open_video" = "Buka Video";
+"context.open_frame" = "Buka Bingkai";
+"context.open_link" = "Buka Pautan";
+"context.actual_size" = "Saiz Sebenar";
+"context.zoom_in" = "Zum Masuk";
+"context.zoom_out" = "Zum Keluar";
+"context.update_url" = "Kemas Kini ke Laman Web Semasa";
+"context.update_url.tooltip" = "Kemas kini URL laman web yang disimpan dalam LivePaper ke URL semasa";
+"context.show_menu_bar_icon" = "Tunjuk Ikon Bar Menu";
+
+/* Tetapan */
+"settings.general" = "Umum";
+"settings.shortcuts" = "Pintasan";
+"settings.advanced" = "Lanjutan";
+"settings.language" = "Bahasa";
+"settings.language.system" = "Lalai Sistem";
+"settings.language.english" = "English";
+"settings.language.chinese_simplified" = "简体中文";
+"settings.language.chinese_traditional" = "繁體中文";
+"settings.language.spanish" = "Español";
+"settings.language.french" = "Français";
+"settings.language.german" = "Deutsch";
+"settings.language.russian" = "Русский";
+"settings.language.portuguese" = "Português";
+"settings.language.japanese" = "日本語";
+"settings.language.korean" = "한국어";
+"settings.language.arabic" = "العربية";
+"settings.language.hindi" = "हिंदी";
+"settings.language.malay" = "Bahasa Melayu";
+"settings.language.italian" = "Italiano";
+"settings.language.turkish" = "Türkçe";
+"settings.language.help" = "Pilih bahasa paparan untuk antara muka aplikasi. Perubahan memerlukan aplikasi dimulakan semula untuk berkuat kuasa.";
+"settings.language.restart_required" = "Perlu Mula Semula";
+"settings.language.restart_message" = "Tetapan bahasa telah diubah. Aplikasi perlu dimulakan semula untuk menggunakan perubahan. Adakah anda mahu memulakan semula sekarang?";
+"settings.launch_at_login" = "Lancar pada Log Masuk";
+"settings.reload_interval" = "Muat semula setiap";
+"settings.reload_interval.minutes" = "minit";
+"settings.reload_interval.accessibility" = "Selang muat semula (minit)";
+"settings.opacity" = "Kelegapan";
+"settings.opacity.help" = "Mod pelayaran sentiasa menggunakan kelegapan penuh.";
+"settings.display" = "Papar pada";
+"settings.display.multi_monitor" = "Sokongan Berbilang Monitor >";
+"settings.show_on_all_spaces" = "Tunjuk pada Semua Ruang";
+"settings.show_on_all_spaces.help" = "Apabila dinyahaktifkan, LivePaper akan muncul pada ruang aktif semasa pelancaran.";
+"settings.bring_to_front" = "Bawa ke Hadapan dalam Mod Pelayaran";
+"settings.bring_to_front.help" = "Kekalkan tetingkap laman web di atas apabila mod pelayaran aktif.";
+"settings.deactivate_on_battery" = "Nyahaktif pada Bateri";
+"settings.open_links_in_browser" = "Buka Pautan Luar dalam Pelayar Lalai";
+"settings.open_links_in_browser.help" = "Jika laman web memerlukan log masuk, anda perlu nyahaktifkan ini semasa log masuk kerana laman web mungkin memerlukan anda ke halaman lain.";
+"settings.mute_audio" = "Senyapkan Audio";
+"settings.hide_menu_bar_icon" = "Sembunyi Ikon Bar Menu";
+"settings.hide_menu_bar_icon.alert" = "Jika anda perlu mengakses menu LivePaper, mulakan semula aplikasi dan ikon bar menu akan ditunjukkan selama 5 saat.";
+"settings.clear_website_data" = "Kosongkan Semua Data Laman Web";
+"settings.clear_website_data.help" = "Mengosongkan semua kuki, storan tempatan, cache, dan lain-lain.";
+
+/* Pintasan */
+"shortcuts.toggle_enabled" = "Togol Diaktifkan";
+"shortcuts.toggle_browsing_mode" = "Togol Mod Pelayaran";
+"shortcuts.reload" = "Muat Semula Laman Web";
+"shortcuts.next_website" = "Laman Web Seterusnya";
+"shortcuts.previous_website" = "Laman Web Sebelumnya";
+"shortcuts.random_website" = "Laman Web Rawak";
+
+/* Tambah Laman Web */
+"add_website.url" = "URL";
+"add_website.title" = "Tajuk";
+"add_website.local_website" = "Laman Web Tempatan...";
+"add_website.choose_local.title" = "Pilih Laman Web Tempatan";
+"add_website.choose_local.message" = "Sila pilih direktori yang mengandungi fail \"index.html\".";
+"add_website.choose_local.prompt" = "Pilih";
+"add_website.choose_local.error" = "Sila pilih direktori yang mengandungi fail \"index.html\".";
+"add_website.example" = "Contohnya, anda boleh";
+"add_website.example.show_time" = "tunjukkan masa.";
+"add_website.invert_colors" = "Songsangkan Warna";
+"add_website.invert_colors.help" = "Mencipta mod gelap simulasi untuk laman web yang tidak mempunyai mod gelap asal dengan menyongsangkan semua warna pada laman web.";
+"add_website.print_styles" = "Guna Gaya Cetak";
+"add_website.print_styles.help" = "Memaksa penggunaan gaya cetak (\"@media print\") jika laman web mempunyainya. Sesetengah laman web mempunyai persembahan yang lebih ringkas untuk pencetakan.";
+"add_website.css.title" = "CSS";
+"add_website.css.help" = "Ini membolehkan anda mengubah suai laman web menggunakan CSS. Contohnya, anda boleh menukar beberapa warna atau menyembunyikan elemen yang tidak diperlukan.";
+"add_website.javascript.title" = "JavaScript";
+"add_website.javascript.help" = "Ini membolehkan anda mengubah suai laman web menggunakan JavaScript. Utamakan CSS apabila boleh.";
+"add_website.advanced" = "Tetapan Lanjutan";
+"add_website.allow_self_signed" = "Benarkan Sijil Ditandatangani Sendiri";
+
+/* Skrin Selamat Datang */
+"welcome.title" = "Selamat Datang ke LivePaper!";
+"welcome.message" = "LivePaper berada di bar menu (ikon titisan di bahagian atas-kanan skrin anda). Klik padanya dan pilih \"Tambah Laman Web...\" untuk bermula.\n\nGuna \"Mod Pelayaran\" apabila anda perlu log masuk ke laman web atau melakukan interaksi lain.\n\nNota: Sokongan berbilang monitor kini terhad kepada memilih paparan mana untuk menunjukkan laman web.";
+"welcome.continue" = "Teruskan";
+"welcome.feedback.title" = "Maklum Balas Dialu-alukan";
+"welcome.feedback.message" = "Jika anda mempunyai sebarang maklum balas, laporan pepijat, atau permintaan ciri, sila gunakan butang maklum balas dalam aplikasi. Saya membalas semua penyerahan.";
+"welcome.get_started" = "Mulakan dengan LivePaper";
+
+/* Petua Mod Pelayaran */
+"browsing_mode.tip.title" = "Mod pelayaran membolehkan anda berinteraksi sementara dengan laman web. Contohnya, untuk log masuk atau tatal ke kedudukan tertentu pada laman web.";
+"browsing_mode.tip.message" = "Jika anda tidak dapat melihat laman web, anda mungkin perlu menyembunyikan beberapa tetingkap untuk mendedahkan desktop.";
+
+/* Petua Sunting */
+"edit.tip" = "Klik dua kali pada laman web dalam senarai untuk menyuntingnya, menogol mod gelap, menambah CSS/JavaScript tersuai, dan banyak lagi.";
+
+/* Mesej Ralat */
+"error.invalid_add_url" = "URL tidak sah untuk arahan \"tambah\".";
+"error.unsupported_command" = "Arahan tidak disokong: \"%@\".";
+"error.server_not_found" = "Tidak dapat menyambung ke pelayan";
+
+/* Pilihan Tetapan */
+"settings.invert_colors.never" = "Tidak Pernah";
+"settings.invert_colors.always" = "Sentiasa";
+"settings.invert_colors.dark_mode" = "Dalam Mod Gelap";
+"settings.invert_colors.title" = "Songsangkan Warna";
+"settings.print_styles" = "Guna Gaya Cetak";
+"settings.print_styles.help" = "Memaksa penggunaan gaya cetak (\"@media print\") jika laman web mempunyainya. Sesetengah laman web mempunyai persembahan yang lebih ringkas untuk pencetakan.";
+"settings.css.title" = "CSS";
+"settings.css.help" = "Ini membolehkan anda mengubah suai laman web menggunakan CSS. Contohnya, anda boleh menukar beberapa warna atau menyembunyikan elemen yang tidak diperlukan.";
+"settings.more_ideas" = "Lebih Banyak Idea";
+"settings.allow_self_signed" = "Benarkan Sijil Ditandatangani Sendiri";
+
+/* Petua Alat */
+"tooltip.update_url" = "Kemas kini URL laman web yang disimpan dalam LivePaper ke URL semasa";
+
+/* Butang Dialog */
+"dialog.keep" = "Simpan";
+"dialog.dont_keep" = "Jangan Simpan";
+"dialog.cancel" = "Batal";
+"dialog.revert" = "Kembalikan";
+"dialog.done" = "Selesai";
+"dialog.add" = "Tambah";
+"dialog.restart_now" = "Mula Semula Sekarang";
+"dialog.restart_later" = "Mula Semula Kemudian";
+
+/* String berkaitan laman web */
+"website.advanced_settings" = "Tetapan Lanjutan";
+"website.allow_self_signed_certificate" = "Benarkan Sijil Ditandatangani Sendiri";
+"website.edit_tip" = "Klik dua kali pada laman web dalam senarai untuk menyuntingnya, menogol mod gelap, menambah CSS/JavaScript tersuai, dan lain-lain.";
+"website.use_print_styles" = "Guna Gaya Cetak";
+"website.use_print_styles.help" = "Memaksa penggunaan gaya cetak (\"@media print\") jika laman web mempunyainya. Sesetengah laman web mempunyai persembahan yang lebih ringkas untuk pencetakan.";
+"website.css" = "CSS";
+"website.css.help" = "Ini membolehkan anda mengubah suai laman web menggunakan CSS. Contohnya, anda boleh menukar beberapa warna atau menyembunyikan elemen yang tidak diperlukan.";
+"website.javascript" = "JavaScript";
+"website.javascript.help" = "Ini membolehkan anda mengubah suai laman web menggunakan JavaScript.";
+"website.advanced" = "Lanjutan";
+"website.invert_colors" = "Songsangkan Warna";
+"website.invert_colors.never" = "Tidak Pernah";
+"website.invert_colors.always" = "Sentiasa";
+"website.invert_colors.dark_mode" = "Dalam Mod Gelap";
+"website.invert_colors.help" = "Mencipta mod gelap simulasi untuk laman web yang tidak mempunyai mod gelap asal dengan menyongsangkan semua warna pada laman web."; 

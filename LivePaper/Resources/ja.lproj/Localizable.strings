@@ -1,0 +1,179 @@
+/* メインインターフェース */
+"websites.title" = "ウェブサイト一覧";
+"websites.empty" = "ウェブサイトなし";
+"websites.add" = "ウェブサイトを追加";
+"websites.make_current" = "現在のサイトに設定";
+"websites.edit" = "編集...";
+"websites.delete" = "削除";
+"websites.manage" = "ウェブサイトを管理...";
+
+/* メニュー項目 */
+"menu.send_feedback" = "フィードバックを送信...";
+"menu.examples" = "例";
+"menu.tips" = "ヒント";
+"menu.faq" = "よくある質問";
+"menu.scripting" = "スクリプト";
+"menu.website" = "ウェブサイト";
+"menu.rate_app" = "アプリを評価";
+"menu.reload" = "再読み込み";
+"menu.browsing_mode" = "ブラウジングモード";
+"menu.next" = "次へ";
+"menu.previous" = "前へ";
+"menu.random" = "ランダム";
+"menu.switch" = "切り替え";
+"menu.edit" = "編集...";
+"menu.more_apps" = "その他のアプリ";
+"menu.settings" = "設定...";
+"menu.quit" = "LivePaperを終了";
+"menu.enable" = "有効化";
+"menu.disable" = "無効化";
+"menu.disabled_on_battery" = "バッテリー使用時は無効";
+"menu.more" = "その他";
+
+/* コンテキストメニュー */
+"context.open_image" = "画像を開く";
+"context.open_video" = "動画を開く";
+"context.open_frame" = "フレームを開く";
+"context.open_link" = "リンクを開く";
+"context.actual_size" = "実際のサイズ";
+"context.zoom_in" = "拡大";
+"context.zoom_out" = "縮小";
+"context.update_url" = "現在のウェブサイトに更新";
+"context.update_url.tooltip" = "LivePaperに保存されているウェブサイトのURLを現在のURLに更新";
+"context.show_menu_bar_icon" = "メニューバーアイコンを表示";
+
+/* 設定 */
+"settings.general" = "一般";
+"settings.shortcuts" = "ショートカット";
+"settings.advanced" = "詳細設定";
+"settings.language" = "言語";
+"settings.language.system" = "システムデフォルト";
+"settings.language.english" = "English";
+"settings.language.chinese_simplified" = "简体中文";
+"settings.language.chinese_traditional" = "繁體中文";
+"settings.language.spanish" = "Español";
+"settings.language.french" = "Français";
+"settings.language.german" = "Deutsch";
+"settings.language.russian" = "Русский";
+"settings.language.portuguese" = "Português";
+"settings.language.japanese" = "日本語";
+"settings.language.korean" = "한국어";
+"settings.language.arabic" = "العربية";
+"settings.language.hindi" = "हिंदी";
+"settings.language.malay" = "Bahasa Melayu";
+"settings.language.italian" = "Italiano";
+"settings.language.turkish" = "Türkçe";
+"settings.language.help" = "アプリケーションの表示言語を選択します。変更を適用するにはアプリケーションの再起動が必要です。";
+"settings.language.restart_required" = "再起動が必要";
+"settings.language.restart_message" = "言語設定が変更されました。変更を適用するにはアプリケーションを再起動する必要があります。今すぐ再起動しますか？";
+"settings.launch_at_login" = "ログイン時に起動";
+"settings.reload_interval" = "再読み込み間隔";
+"settings.reload_interval.minutes" = "分";
+"settings.reload_interval.accessibility" = "再読み込み間隔（分）";
+"settings.opacity" = "不透明度";
+"settings.opacity.help" = "ブラウジングモードでは常に完全な不透明度が使用されます。";
+"settings.display" = "表示先";
+"settings.display.multi_monitor" = "マルチモニターサポート >";
+"settings.show_on_all_spaces" = "すべての操作スペースに表示";
+"settings.show_on_all_spaces.help" = "無効にすると、LivePaperは起動時にアクティブな操作スペースに表示されます。";
+"settings.bring_to_front" = "ブラウジングモード時に前面に表示";
+"settings.bring_to_front.help" = "ブラウジングモードがアクティブな時、ウェブサイトウィンドウを最前面に保持します。";
+"settings.deactivate_on_battery" = "バッテリー使用時に無効化";
+"settings.open_links_in_browser" = "外部リンクをデフォルトブラウザで開く";
+"settings.open_links_in_browser.help" = "ウェブサイトにログインが必要な場合、ログイン中はこの機能を無効にしてください。サイトが他のページに移動する必要がある場合があり、それらがLivePaperではなくブラウザで開かれることを避けるためです。";
+"settings.mute_audio" = "音声をミュート";
+"settings.hide_menu_bar_icon" = "メニューバーアイコンを非表示";
+"settings.hide_menu_bar_icon.alert" = "LivePaperメニューにアクセスする必要がある場合は、アプリケーションを再起動すると、メニューバーアイコンが5秒間表示されます。";
+"settings.clear_website_data" = "すべてのウェブサイトデータを消去";
+"settings.clear_website_data.help" = "すべてのCookie、ローカルストレージ、キャッシュなどを消去します。";
+
+/* ショートカット */
+"shortcuts.toggle_enabled" = "有効/無効を切り替え";
+"shortcuts.toggle_browsing_mode" = "ブラウジングモードを切り替え";
+"shortcuts.reload" = "ウェブサイトを再読み込み";
+"shortcuts.next_website" = "次のウェブサイト";
+"shortcuts.previous_website" = "前のウェブサイト";
+"shortcuts.random_website" = "ランダムなウェブサイト";
+
+/* ウェブサイトの追加 */
+"add_website.url" = "URL";
+"add_website.title" = "タイトル";
+"add_website.local_website" = "ローカルウェブサイト...";
+"add_website.choose_local.title" = "ローカルウェブサイトを選択";
+"add_website.choose_local.message" = "\"index.html\"ファイルを含むディレクトリを選択してください。";
+"add_website.choose_local.prompt" = "選択";
+"add_website.choose_local.error" = "\"index.html\"ファイルを含むディレクトリを選択してください。";
+"add_website.example" = "例えば、";
+"add_website.example.show_time" = "時刻を表示できます。";
+"add_website.invert_colors" = "色を反転";
+"add_website.invert_colors.help" = "ネイティブのダークモードを持たないウェブサイトに対して、すべての色を反転させることでシミュレートされたダークモードを作成します。";
+"add_website.print_styles" = "印刷スタイルを使用";
+"add_website.print_styles.help" = "ウェブサイトが印刷スタイル（\"@media print\"）を持っている場合、それを強制的に使用します。Google Calendarなど、一部のウェブサイトは印刷用にシンプルなレイアウトを持っています。";
+"add_website.css.title" = "CSS";
+"add_website.css.help" = "CSSを使用してウェブサイトを修正できます。例えば、色を変更したり、不要な要素を非表示にしたりできます。";
+"add_website.javascript.title" = "JavaScript";
+"add_website.javascript.help" = "JavaScriptを使用してウェブサイトを修正できます。可能な場合はCSSを優先してください。";
+"add_website.advanced" = "詳細設定";
+"add_website.allow_self_signed" = "自己署名証明書を許可";
+
+/* ウェルカム画面 */
+"welcome.title" = "LivePaperへようこそ！";
+"welcome.message" = "LivePaperはメニューバーに常駐します（画面右上のドロップレットアイコン）。クリックして「ウェブサイトを追加...」を選択して始めましょう。\n\nウェブサイトにログインしたり、他の操作を行う必要がある場合は「ブラウジングモード」を使用してください。\n\n注意：マルチモニターサポートは現在、ウェブサイトを表示するディスプレイの選択に限定されています。";
+"welcome.continue" = "続ける";
+"welcome.feedback.title" = "フィードバック歓迎";
+"welcome.feedback.message" = "フィードバック、バグレポート、機能リクエストがありましたら、アプリ内のフィードバックボタンをご使用ください。すべての送信に対して返信いたします。";
+"welcome.get_started" = "LivePaperを始める";
+
+/* ブラウジングモードのヒント */
+"browsing_mode.tip.title" = "ブラウジングモードでは、一時的にウェブサイトと対話できます。例えば、ログインしたり、ウェブサイト上の特定の位置までスクロールしたりできます。";
+"browsing_mode.tip.message" = "ウェブサイトが見えない場合は、デスクトップを表示するためにいくつかのウィンドウを非表示にする必要があるかもしれません。";
+
+/* 編集のヒント */
+"edit.tip" = "リスト内のウェブサイトをダブルクリックして、編集、ダークモードの切り替え、カスタムCSS/JavaScriptの追加などを行えます。";
+
+/* エラーメッセージ */
+"error.invalid_add_url" = "\"add\"コマンドのURLが無効です。";
+"error.unsupported_command" = "サポートされていないコマンド：\"%@\"。";
+"error.server_not_found" = "サーバーに接続できません";
+
+/* 設定オプション */
+"settings.invert_colors.never" = "しない";
+"settings.invert_colors.always" = "常に";
+"settings.invert_colors.dark_mode" = "ダークモード時";
+"settings.invert_colors.title" = "色を反転";
+"settings.print_styles" = "印刷スタイルを使用";
+"settings.print_styles.help" = "ウェブサイトが印刷スタイル（\"@media print\"）を持っている場合、それを強制的に使用します。Google Calendarなど、一部のウェブサイトは印刷用にシンプルなレイアウトを持っています。";
+"settings.css.title" = "CSS";
+"settings.css.help" = "CSSを使用してウェブサイトを修正できます。例えば、色を変更したり、不要な要素を非表示にしたりできます。";
+"settings.more_ideas" = "その他のアイデア";
+"settings.allow_self_signed" = "自己署名証明書を許可";
+
+/* ツールチップ */
+"tooltip.update_url" = "LivePaperに保存されているウェブサイトのURLを現在のURLに更新";
+
+/* ダイアログボタン */
+"dialog.keep" = "保持";
+"dialog.dont_keep" = "保持しない";
+"dialog.cancel" = "キャンセル";
+"dialog.revert" = "元に戻す";
+"dialog.done" = "完了";
+"dialog.add" = "追加";
+"dialog.restart_now" = "今すぐ再起動";
+"dialog.restart_later" = "後で再起動";
+
+/* ウェブサイト関連の文字列 */
+"website.advanced_settings" = "詳細設定";
+"website.allow_self_signed_certificate" = "自己署名証明書を許可";
+"website.edit_tip" = "リスト内のウェブサイトをダブルクリックして、編集、ダークモードの切り替え、カスタムCSS/JavaScriptの追加などを行えます。";
+"website.use_print_styles" = "印刷スタイルを使用";
+"website.use_print_styles.help" = "ウェブサイトが印刷スタイル（\"@media print\"）を持っている場合、それを強制的に使用します。Google Calendarなど、一部のウェブサイトは印刷用にシンプルなレイアウトを持っています。";
+"website.css" = "CSS";
+"website.css.help" = "CSSを使用してウェブサイトを修正できます。例えば、色を変更したり、不要な要素を非表示にしたりできます。";
+"website.javascript" = "JavaScript";
+"website.javascript.help" = "JavaScriptを使用してウェブサイトを修正できます。";
+"website.advanced" = "詳細";
+"website.invert_colors" = "色を反転";
+"website.invert_colors.never" = "しない";
+"website.invert_colors.always" = "常に";
+"website.invert_colors.dark_mode" = "ダークモード時";
+"website.invert_colors.help" = "ネイティブのダークモードを持たないウェブサイトに対して、すべての色を反転させることでシミュレートされたダークモードを作成します。"; 

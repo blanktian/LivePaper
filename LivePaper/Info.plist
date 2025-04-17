@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.blank.LivePaper</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>livepaper</string>
+			</array>
+		</dict>
+	</array>
+	<key>MDItemKeywords</key>
+	<string>desktop,background,wallpaper,website,livepaper</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Original work © Sindre Sorhus
+Modified work © blank
+MIT License</string>
+</dict>
+</plist>

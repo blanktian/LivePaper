@@ -1,0 +1,179 @@
+/* Interface Principal */
+"websites.title" = "Lista de Sites";
+"websites.empty" = "Nenhum Site";
+"websites.add" = "Adicionar Site";
+"websites.make_current" = "Definir como Atual";
+"websites.edit" = "Editar...";
+"websites.delete" = "Excluir";
+"websites.manage" = "Gerenciar Sites...";
+
+/* Itens do Menu */
+"menu.send_feedback" = "Enviar Feedback...";
+"menu.examples" = "Exemplos";
+"menu.tips" = "Dicas";
+"menu.faq" = "FAQ";
+"menu.scripting" = "Programação";
+"menu.website" = "Site";
+"menu.rate_app" = "Avaliar App";
+"menu.reload" = "Recarregar";
+"menu.browsing_mode" = "Modo Navegação";
+"menu.next" = "Próximo";
+"menu.previous" = "Anterior";
+"menu.random" = "Aleatório";
+"menu.switch" = "Alternar";
+"menu.edit" = "Editar...";
+"menu.more_apps" = "Mais Apps";
+"menu.settings" = "Configurações...";
+"menu.quit" = "Sair do LivePaper";
+"menu.enable" = "Ativar";
+"menu.disable" = "Desativar";
+"menu.disabled_on_battery" = "Desativado na Bateria";
+"menu.more" = "Mais";
+
+/* Menu de Contexto */
+"context.open_image" = "Abrir Imagem";
+"context.open_video" = "Abrir Vídeo";
+"context.open_frame" = "Abrir Frame";
+"context.open_link" = "Abrir Link";
+"context.actual_size" = "Tamanho Real";
+"context.zoom_in" = "Aumentar Zoom";
+"context.zoom_out" = "Diminuir Zoom";
+"context.update_url" = "Atualizar para Site Atual";
+"context.update_url.tooltip" = "Atualizar a URL armazenada no LivePaper para a URL atual";
+"context.show_menu_bar_icon" = "Mostrar Ícone na Barra de Menu";
+
+/* Configurações */
+"settings.general" = "Geral";
+"settings.shortcuts" = "Atalhos";
+"settings.advanced" = "Avançado";
+"settings.language" = "Idioma";
+"settings.language.system" = "Sistema";
+"settings.language.english" = "English";
+"settings.language.chinese_simplified" = "简体中文";
+"settings.language.chinese_traditional" = "繁體中文";
+"settings.language.spanish" = "Español";
+"settings.language.french" = "Français";
+"settings.language.german" = "Deutsch";
+"settings.language.russian" = "Русский";
+"settings.language.portuguese" = "Português";
+"settings.language.japanese" = "日本語";
+"settings.language.korean" = "한국어";
+"settings.language.arabic" = "العربية";
+"settings.language.hindi" = "हिंदी";
+"settings.language.malay" = "Bahasa Melayu";
+"settings.language.italian" = "Italiano";
+"settings.language.turkish" = "Türkçe";
+"settings.language.help" = "Escolha o idioma de exibição da interface do aplicativo. As alterações requerem reinicialização do aplicativo.";
+"settings.language.restart_required" = "Reinicialização Necessária";
+"settings.language.restart_message" = "A configuração de idioma foi alterada. O aplicativo precisa ser reiniciado para que as alterações tenham efeito. Deseja reiniciar agora?";
+"settings.launch_at_login" = "Iniciar no Login";
+"settings.reload_interval" = "Recarregar a cada";
+"settings.reload_interval.minutes" = "minutos";
+"settings.reload_interval.accessibility" = "Intervalo de recarga (minutos)";
+"settings.opacity" = "Opacidade";
+"settings.opacity.help" = "O modo de navegação sempre usa opacidade total.";
+"settings.display" = "Exibir em";
+"settings.display.multi_monitor" = "Suporte Multi-Monitor >";
+"settings.show_on_all_spaces" = "Mostrar em Todos os Espaços";
+"settings.show_on_all_spaces.help" = "Quando desativado, o LivePaper aparecerá no espaço ativo na inicialização.";
+"settings.bring_to_front" = "Trazer para Frente no Modo Navegação";
+"settings.bring_to_front.help" = "Manter a janela do site na frente quando o modo de navegação estiver ativo.";
+"settings.deactivate_on_battery" = "Desativar na Bateria";
+"settings.open_links_in_browser" = "Abrir Links Externos no Navegador Padrão";
+"settings.open_links_in_browser.help" = "Se o site requer login, você deve desativar isso durante o login, pois o site pode precisar navegar para outras páginas.";
+"settings.mute_audio" = "Silenciar Áudio";
+"settings.hide_menu_bar_icon" = "Ocultar Ícone da Barra de Menu";
+"settings.hide_menu_bar_icon.alert" = "Se você precisar acessar o menu do LivePaper, reinicie o aplicativo e o ícone da barra de menu aparecerá por 5 segundos.";
+"settings.clear_website_data" = "Limpar Todos os Dados do Site";
+"settings.clear_website_data.help" = "Limpa todos os cookies, armazenamento local, cache, etc.";
+
+/* Atalhos */
+"shortcuts.toggle_enabled" = "Alternar Ativado";
+"shortcuts.toggle_browsing_mode" = "Alternar Modo Navegação";
+"shortcuts.reload" = "Recarregar Site";
+"shortcuts.next_website" = "Próximo Site";
+"shortcuts.previous_website" = "Site Anterior";
+"shortcuts.random_website" = "Site Aleatório";
+
+/* Adicionar Site */
+"add_website.url" = "URL";
+"add_website.title" = "Título";
+"add_website.local_website" = "Site Local...";
+"add_website.choose_local.title" = "Escolher Site Local";
+"add_website.choose_local.message" = "Por favor, selecione um diretório contendo um arquivo \"index.html\".";
+"add_website.choose_local.prompt" = "Escolher";
+"add_website.choose_local.error" = "Por favor, selecione um diretório contendo um arquivo \"index.html\".";
+"add_website.example" = "Por exemplo, você pode";
+"add_website.example.show_time" = "mostrar a hora.";
+"add_website.invert_colors" = "Inverter Cores";
+"add_website.invert_colors.help" = "Cria um modo escuro simulado para sites que não têm modo escuro nativo invertendo todas as cores do site.";
+"add_website.print_styles" = "Usar Estilos de Impressão";
+"add_website.print_styles.help" = "Força o uso de estilos de impressão (\"@media print\") se o site os tiver. Alguns sites têm um layout mais simples para impressão.";
+"add_website.css.title" = "CSS";
+"add_website.css.help" = "Isso permite modificar o site usando CSS. Por exemplo, você pode alterar cores ou ocultar elementos desnecessários.";
+"add_website.javascript.title" = "JavaScript";
+"add_website.javascript.help" = "Isso permite modificar o site usando JavaScript. Prefira CSS quando possível.";
+"add_website.advanced" = "Configurações Avançadas";
+"add_website.allow_self_signed" = "Permitir Certificado Auto-assinado";
+
+/* Tela de Boas-vindas */
+"welcome.title" = "Bem-vindo ao LivePaper!";
+"welcome.message" = "O LivePaper vive na barra de menu (o ícone de gota no canto superior direito da tela). Clique nele e escolha \"Adicionar Site...\" para começar.\n\nUse o \"Modo Navegação\" quando precisar fazer login em um site ou realizar outras interações.\n\nNota: O suporte multi-monitor está atualmente limitado à escolha do monitor onde exibir o site.";
+"welcome.continue" = "Continuar";
+"welcome.feedback.title" = "Feedback Bem-vindo";
+"welcome.feedback.message" = "Se você tiver feedback, relatórios de bugs ou solicitações de recursos, use o botão de feedback no aplicativo. Eu respondo a todos os envios.";
+"welcome.get_started" = "Começar com o LivePaper";
+
+/* Dicas do Modo Navegação */
+"browsing_mode.tip.title" = "O modo de navegação permite interagir temporariamente com o site. Por exemplo, para fazer login ou rolar até uma posição específica no site.";
+"browsing_mode.tip.message" = "Se você não consegue ver o site, pode precisar ocultar algumas janelas para revelar a área de trabalho.";
+
+/* Dicas de Edição */
+"edit.tip" = "Clique duas vezes nos sites na lista para editá-los, alternar o modo escuro, adicionar CSS/JavaScript personalizado e mais.";
+
+/* Mensagens de Erro */
+"error.invalid_add_url" = "URL inválida para o comando \"add\".";
+"error.unsupported_command" = "Comando não suportado: \"%@\".";
+"error.server_not_found" = "Não foi possível conectar ao servidor";
+
+/* Opções de Configuração */
+"settings.invert_colors.never" = "Nunca";
+"settings.invert_colors.always" = "Sempre";
+"settings.invert_colors.dark_mode" = "No Modo Escuro";
+"settings.invert_colors.title" = "Inverter Cores";
+"settings.print_styles" = "Usar Estilos de Impressão";
+"settings.print_styles.help" = "Força o uso de estilos de impressão (\"@media print\") se o site os tiver. Alguns sites têm um layout mais simples para impressão.";
+"settings.css.title" = "CSS";
+"settings.css.help" = "Isso permite modificar o site usando CSS. Por exemplo, você pode alterar cores ou ocultar elementos desnecessários.";
+"settings.more_ideas" = "Mais Ideias";
+"settings.allow_self_signed" = "Permitir Certificado Auto-assinado";
+
+/* Dicas de Ferramentas */
+"tooltip.update_url" = "Atualizar a URL armazenada no LivePaper para a URL atual";
+
+/* Botões de Diálogo */
+"dialog.keep" = "Manter";
+"dialog.dont_keep" = "Não Manter";
+"dialog.cancel" = "Cancelar";
+"dialog.revert" = "Reverter";
+"dialog.done" = "Concluído";
+"dialog.add" = "Adicionar";
+"dialog.restart_now" = "Reiniciar Agora";
+"dialog.restart_later" = "Reiniciar Depois";
+
+/* Strings Relacionadas ao Site */
+"website.advanced_settings" = "Configurações Avançadas";
+"website.allow_self_signed_certificate" = "Permitir Certificado Auto-assinado";
+"website.edit_tip" = "Clique duas vezes em um site na lista para editá-lo, alternar o modo escuro, adicionar CSS/JavaScript personalizado, etc.";
+"website.use_print_styles" = "Usar Estilos de Impressão";
+"website.use_print_styles.help" = "Força o uso de estilos de impressão (\"@media print\") se o site os tiver. Alguns sites têm um layout mais simples para impressão.";
+"website.css" = "CSS";
+"website.css.help" = "Isso permite modificar o site usando CSS. Por exemplo, você pode alterar cores ou ocultar elementos desnecessários.";
+"website.javascript" = "JavaScript";
+"website.javascript.help" = "Isso permite modificar o site usando JavaScript.";
+"website.advanced" = "Avançado";
+"website.invert_colors" = "Inverter Cores";
+"website.invert_colors.never" = "Nunca";
+"website.invert_colors.always" = "Sempre";
+"website.invert_colors.dark_mode" = "No Modo Escuro";
+"website.invert_colors.help" = "Cria um modo escuro simulado para sites que não têm modo escuro nativo invertendo todas as cores do site.";

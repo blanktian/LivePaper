@@ -1,0 +1,179 @@
+/* Ana Arayüz */
+"websites.title" = "Web Sitesi Listesi";
+"websites.empty" = "Web Sitesi Yok";
+"websites.add" = "Web Sitesi Ekle";
+"websites.make_current" = "Geçerli Olarak Ayarla";
+"websites.edit" = "Düzenle...";
+"websites.delete" = "Sil";
+"websites.manage" = "Web Sitelerini Yönet...";
+
+/* Menü Öğeleri */
+"menu.send_feedback" = "Geri Bildirim Gönder...";
+"menu.examples" = "Örnekler";
+"menu.tips" = "İpuçları";
+"menu.faq" = "SSS";
+"menu.scripting" = "Komut Dosyası";
+"menu.website" = "Web Sitesi";
+"menu.rate_app" = "Uygulamayı Değerlendir";
+"menu.reload" = "Yenile";
+"menu.browsing_mode" = "Gezinme Modu";
+"menu.next" = "Sonraki";
+"menu.previous" = "Önceki";
+"menu.random" = "Rastgele";
+"menu.switch" = "Değiştir";
+"menu.edit" = "Düzenle...";
+"menu.more_apps" = "Daha Fazla Uygulama";
+"menu.settings" = "Ayarlar...";
+"menu.quit" = "LivePaper'dan Çık";
+"menu.enable" = "Etkinleştir";
+"menu.disable" = "Devre Dışı Bırak";
+"menu.disabled_on_battery" = "Pilde Devre Dışı";
+"menu.more" = "Daha Fazla";
+
+/* Bağlam Menüsü */
+"context.open_image" = "Resmi Aç";
+"context.open_video" = "Videoyu Aç";
+"context.open_frame" = "Çerçeveyi Aç";
+"context.open_link" = "Bağlantıyı Aç";
+"context.actual_size" = "Gerçek Boyut";
+"context.zoom_in" = "Yakınlaştır";
+"context.zoom_out" = "Uzaklaştır";
+"context.update_url" = "Mevcut Web Sitesine Güncelle";
+"context.update_url.tooltip" = "LivePaper'da kayıtlı web sitesi URL'sini mevcut URL'ye güncelle";
+"context.show_menu_bar_icon" = "Menü Çubuğu Simgesini Göster";
+
+/* Ayarlar */
+"settings.general" = "Genel";
+"settings.shortcuts" = "Kısayollar";
+"settings.advanced" = "Gelişmiş";
+"settings.language" = "Dil";
+"settings.language.system" = "Sistem Varsayılanı";
+"settings.language.english" = "English";
+"settings.language.chinese_simplified" = "简体中文";
+"settings.language.chinese_traditional" = "繁體中文";
+"settings.language.spanish" = "Español";
+"settings.language.french" = "Français";
+"settings.language.german" = "Deutsch";
+"settings.language.russian" = "Русский";
+"settings.language.portuguese" = "Português";
+"settings.language.japanese" = "日本語";
+"settings.language.korean" = "한국어";
+"settings.language.arabic" = "العربية";
+"settings.language.hindi" = "हिंदी";
+"settings.language.malay" = "Bahasa Melayu";
+"settings.language.italian" = "Italiano";
+"settings.language.turkish" = "Türkçe";
+"settings.language.help" = "Uygulama arayüzü için görüntüleme dilini seçin. Değişikliklerin etkili olması için uygulamanın yeniden başlatılması gerekir.";
+"settings.language.restart_required" = "Yeniden Başlatma Gerekli";
+"settings.language.restart_message" = "Dil ayarları değiştirildi. Değişikliklerin etkili olması için uygulamanın yeniden başlatılması gerekiyor. Şimdi yeniden başlatmak ister misiniz?";
+"settings.launch_at_login" = "Oturum Açıldığında Başlat";
+"settings.reload_interval" = "Her";
+"settings.reload_interval.minutes" = "dakikada bir yenile";
+"settings.reload_interval.accessibility" = "Yenileme aralığı (dakika)";
+"settings.opacity" = "Opaklık";
+"settings.opacity.help" = "Gezinme modu her zaman tam opaklık kullanır.";
+"settings.display" = "Görüntüleme";
+"settings.display.multi_monitor" = "Çoklu Monitör Desteği >";
+"settings.show_on_all_spaces" = "Tüm Masaüstlerinde Göster";
+"settings.show_on_all_spaces.help" = "Devre dışı bırakıldığında, LivePaper başlangıçta aktif masaüstünde görünecektir.";
+"settings.bring_to_front" = "Gezinme Modunda Öne Getir";
+"settings.bring_to_front.help" = "Gezinme modu etkinken web sitesi penceresini en üstte tut.";
+"settings.deactivate_on_battery" = "Pilde Devre Dışı Bırak";
+"settings.open_links_in_browser" = "Harici Bağlantıları Varsayılan Tarayıcıda Aç";
+"settings.open_links_in_browser.help" = "Web sitesi oturum açma gerektiriyorsa, oturum açarken bu seçeneği devre dışı bırakmalısınız çünkü site diğer sayfalara gitmenizi gerektirebilir ve bunların LivePaper yerine tarayıcıda açılmasını istemezsiniz.";
+"settings.mute_audio" = "Sesi Kapat";
+"settings.hide_menu_bar_icon" = "Menü Çubuğu Simgesini Gizle";
+"settings.hide_menu_bar_icon.alert" = "LivePaper menüsüne erişmeniz gerekirse, uygulamayı yeniden başlatın ve menü çubuğu simgesi 5 saniye boyunca görünecektir.";
+"settings.clear_website_data" = "Tüm Web Sitesi Verilerini Temizle";
+"settings.clear_website_data.help" = "Tüm çerezleri, yerel depolamayı, önbelleği vb. temizler.";
+
+/* Kısayollar */
+"shortcuts.toggle_enabled" = "Etkinleştirmeyi Aç/Kapat";
+"shortcuts.toggle_browsing_mode" = "Gezinme Modunu Aç/Kapat";
+"shortcuts.reload" = "Web Sitesini Yenile";
+"shortcuts.next_website" = "Sonraki Web Sitesi";
+"shortcuts.previous_website" = "Önceki Web Sitesi";
+"shortcuts.random_website" = "Rastgele Web Sitesi";
+
+/* Web Sitesi Ekle */
+"add_website.url" = "URL";
+"add_website.title" = "Başlık";
+"add_website.local_website" = "Yerel Web Sitesi...";
+"add_website.choose_local.title" = "Yerel Web Sitesi Seç";
+"add_website.choose_local.message" = "Lütfen \"index.html\" dosyası içeren bir dizin seçin.";
+"add_website.choose_local.prompt" = "Seç";
+"add_website.choose_local.error" = "Lütfen \"index.html\" dosyası içeren bir dizin seçin.";
+"add_website.example" = "Örneğin,";
+"add_website.example.show_time" = "saati gösterebilirsiniz.";
+"add_website.invert_colors" = "Renkleri Tersine Çevir";
+"add_website.invert_colors.help" = "Yerel karanlık modu olmayan web siteleri için, sitedeki tüm renkleri tersine çevirerek simüle edilmiş bir karanlık mod oluşturur.";
+"add_website.print_styles" = "Yazdırma Stillerini Kullan";
+"add_website.print_styles.help" = "Web sitesi varsa yazdırma stillerini (\"@media print\") kullanmaya zorlar. Bazı web siteleri yazdırma için daha basit bir sunum kullanır, Google Takvim gibi.";
+"add_website.css.title" = "CSS";
+"add_website.css.help" = "Bu, web sitesini CSS kullanarak değiştirmenize olanak tanır. Örneğin, bazı renkleri değiştirebilir veya gereksiz öğeleri gizleyebilirsiniz.";
+"add_website.javascript.title" = "JavaScript";
+"add_website.javascript.help" = "Bu, web sitesini JavaScript kullanarak değiştirmenize olanak tanır. Mümkün olduğunda CSS'i tercih edin. Üst düzeyde \"await\" kullanabilirsiniz.";
+"add_website.advanced" = "Gelişmiş Ayarlar";
+"add_website.allow_self_signed" = "Kendinden İmzalı Sertifikaya İzin Ver";
+
+/* Hoş Geldiniz Ekranı */
+"welcome.title" = "LivePaper'a Hoş Geldiniz!";
+"welcome.message" = "LivePaper menü çubuğunda yaşar (ekranınızın sağ üst köşesindeki damla simgesi). Başlamak için tıklayın ve \"Web Sitesi Ekle...\" seçeneğini seçin.\n\nBir web sitesine giriş yapmanız veya diğer etkileşimleri gerçekleştirmeniz gerektiğinde \"Gezinme Modu\"nu kullanın.\n\nNot: Çoklu monitör desteği şu anda web sitesinin hangi ekranda gösterileceğini seçmekle sınırlıdır.";
+"welcome.continue" = "Devam Et";
+"welcome.feedback.title" = "Geri Bildirim Hoş Gelir";
+"welcome.feedback.message" = "Herhangi bir geri bildiriminiz, hata raporunuz veya özellik isteğiniz varsa, lütfen uygulamadaki geri bildirim düğmesini kullanın. Tüm gönderilere yanıt veriyorum.";
+"welcome.get_started" = "LivePaper ile Başlayın";
+
+/* Gezinme Modu İpuçları */
+"browsing_mode.tip.title" = "Gezinme modu, web sitesiyle geçici olarak etkileşim kurmanıza olanak tanır. Örneğin, oturum açmak veya web sitesinde belirli bir konuma kaydırmak için.";
+"browsing_mode.tip.message" = "Web sitesini göremiyorsanız, masaüstünü göstermek için bazı pencereleri gizlemeniz gerekebilir.";
+
+/* Düzenleme İpuçları */
+"edit.tip" = "Web sitelerini düzenlemek, karanlık modu açıp kapatmak, özel CSS/JavaScript eklemek ve daha fazlası için listedeki web sitelerine çift tıklayın.";
+
+/* Hata Mesajları */
+"error.invalid_add_url" = "\"add\" komutu için geçersiz URL.";
+"error.unsupported_command" = "Desteklenmeyen komut: \"%@\".";
+"error.server_not_found" = "Sunucuya bağlanılamıyor";
+
+/* Ayar Seçenekleri */
+"settings.invert_colors.never" = "Asla";
+"settings.invert_colors.always" = "Her Zaman";
+"settings.invert_colors.dark_mode" = "Karanlık Modda";
+"settings.invert_colors.title" = "Renkleri Tersine Çevir";
+"settings.print_styles" = "Yazdırma Stillerini Kullan";
+"settings.print_styles.help" = "Web sitesi varsa yazdırma stillerini (\"@media print\") kullanmaya zorlar. Bazı web siteleri yazdırma için daha basit bir sunum kullanır, Google Takvim gibi.";
+"settings.css.title" = "CSS";
+"settings.css.help" = "Bu, web sitesini CSS kullanarak değiştirmenize olanak tanır. Örneğin, bazı renkleri değiştirebilir veya gereksiz öğeleri gizleyebilirsiniz.";
+"settings.more_ideas" = "Daha Fazla Fikir";
+"settings.allow_self_signed" = "Kendinden İmzalı Sertifikaya İzin Ver";
+
+/* Araç İpuçları */
+"tooltip.update_url" = "LivePaper'da kayıtlı web sitesi URL'sini mevcut URL'ye güncelle";
+
+/* İletişim Kutusu Düğmeleri */
+"dialog.keep" = "Sakla";
+"dialog.dont_keep" = "Saklama";
+"dialog.cancel" = "İptal";
+"dialog.revert" = "Geri Al";
+"dialog.done" = "Tamam";
+"dialog.add" = "Ekle";
+"dialog.restart_now" = "Şimdi Yeniden Başlat";
+"dialog.restart_later" = "Daha Sonra Yeniden Başlat";
+
+/* Web Sitesi ile İlgili Dizeler */
+"website.advanced_settings" = "Gelişmiş Ayarlar";
+"website.allow_self_signed_certificate" = "Kendinden İmzalı Sertifikaya İzin Ver";
+"website.edit_tip" = "Web sitelerini düzenlemek, karanlık modu açıp kapatmak, özel CSS/JavaScript eklemek vb. için listedeki web sitelerine çift tıklayın.";
+"website.use_print_styles" = "Yazdırma Stillerini Kullan";
+"website.use_print_styles.help" = "Web sitesi varsa yazdırma stillerini (\"@media print\") kullanmaya zorlar. Bazı web siteleri yazdırma için daha basit bir sunum kullanır, Google Takvim gibi.";
+"website.css" = "CSS";
+"website.css.help" = "Bu, web sitesini CSS kullanarak değiştirmenize olanak tanır. Örneğin, bazı renkleri değiştirebilir veya gereksiz öğeleri gizleyebilirsiniz.";
+"website.javascript" = "JavaScript";
+"website.javascript.help" = "Bu, web sitesini JavaScript kullanarak değiştirmenize olanak tanır.";
+"website.advanced" = "Gelişmiş";
+"website.invert_colors" = "Renkleri Tersine Çevir";
+"website.invert_colors.never" = "Asla";
+"website.invert_colors.always" = "Her Zaman";
+"website.invert_colors.dark_mode" = "Karanlık Modda";
+"website.invert_colors.help" = "Yerel karanlık modu olmayan web siteleri için, sitedeki tüm renkleri tersine çevirerek simüle edilmiş bir karanlık mod oluşturur."; 

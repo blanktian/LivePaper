@@ -1,0 +1,179 @@
+/* Главный интерфейс */
+"websites.title" = "Список сайтов";
+"websites.empty" = "Нет сайтов";
+"websites.add" = "Добавить сайт";
+"websites.make_current" = "Сделать текущим";
+"websites.edit" = "Редактировать...";
+"websites.delete" = "Удалить";
+"websites.manage" = "Управление сайтами...";
+
+/* Пункты меню */
+"menu.send_feedback" = "Отправить отзыв...";
+"menu.examples" = "Примеры";
+"menu.tips" = "Советы";
+"menu.faq" = "Часто задаваемые вопросы";
+"menu.scripting" = "Скрипты";
+"menu.website" = "Веб-сайт";
+"menu.rate_app" = "Оценить приложение";
+"menu.reload" = "Обновить";
+"menu.browsing_mode" = "Режим просмотра";
+"menu.next" = "Следующий";
+"menu.previous" = "Предыдущий";
+"menu.random" = "Случайный";
+"menu.switch" = "Переключить";
+"menu.edit" = "Редактировать...";
+"menu.more_apps" = "Другие приложения";
+"menu.settings" = "Настройки...";
+"menu.quit" = "Выйти из LivePaper";
+"menu.enable" = "Включить";
+"menu.disable" = "Отключить";
+"menu.disabled_on_battery" = "Отключено при работе от батареи";
+"menu.more" = "Ещё";
+
+/* Контекстное меню */
+"context.open_image" = "Открыть изображение";
+"context.open_video" = "Открыть видео";
+"context.open_frame" = "Открыть фрейм";
+"context.open_link" = "Открыть ссылку";
+"context.actual_size" = "Реальный размер";
+"context.zoom_in" = "Увеличить";
+"context.zoom_out" = "Уменьшить";
+"context.update_url" = "Обновить до текущего сайта";
+"context.update_url.tooltip" = "Обновить сохраненный URL в LivePaper до текущего URL";
+"context.show_menu_bar_icon" = "Показать значок в строке меню";
+
+/* Настройки */
+"settings.general" = "Общие";
+"settings.shortcuts" = "Сочетания клавиш";
+"settings.advanced" = "Дополнительно";
+"settings.language" = "Язык";
+"settings.language.system" = "Системный";
+"settings.language.english" = "English";
+"settings.language.chinese_simplified" = "简体中文";
+"settings.language.chinese_traditional" = "繁體中文";
+"settings.language.spanish" = "Español";
+"settings.language.french" = "Français";
+"settings.language.german" = "Deutsch";
+"settings.language.russian" = "Русский";
+"settings.language.portuguese" = "Português";
+"settings.language.japanese" = "日本語";
+"settings.language.korean" = "한국어";
+"settings.language.arabic" = "العربية";
+"settings.language.hindi" = "हिंदी";
+"settings.language.malay" = "Bahasa Melayu";
+"settings.language.italian" = "Italiano";
+"settings.language.turkish" = "Türkçe";
+"settings.language.help" = "Выберите язык интерфейса приложения. Изменения вступят в силу после перезапуска приложения.";
+"settings.language.restart_required" = "Требуется перезапуск";
+"settings.language.restart_message" = "Настройки языка были изменены. Необходимо перезапустить приложение, чтобы изменения вступили в силу. Хотите перезапустить сейчас?";
+"settings.launch_at_login" = "Запускать при входе в систему";
+"settings.reload_interval" = "Обновлять каждые";
+"settings.reload_interval.minutes" = "минут";
+"settings.reload_interval.accessibility" = "Интервал обновления (минуты)";
+"settings.opacity" = "Непрозрачность";
+"settings.opacity.help" = "В режиме просмотра всегда используется полная непрозрачность.";
+"settings.display" = "Отображать на";
+"settings.display.multi_monitor" = "Поддержка нескольких мониторов >";
+"settings.show_on_all_spaces" = "Показывать на всех рабочих столах";
+"settings.show_on_all_spaces.help" = "Когда отключено, LivePaper будет появляться на активном рабочем столе при запуске.";
+"settings.bring_to_front" = "Выводить на передний план в режиме просмотра";
+"settings.bring_to_front.help" = "Держать окно сайта поверх других окон в режиме просмотра.";
+"settings.deactivate_on_battery" = "Отключать при работе от батареи";
+"settings.open_links_in_browser" = "Открывать внешние ссылки в браузере по умолчанию";
+"settings.open_links_in_browser.help" = "Если сайт требует входа, отключите эту опцию на время входа, так как сайту может потребоваться переход на другие страницы.";
+"settings.mute_audio" = "Отключить звук";
+"settings.hide_menu_bar_icon" = "Скрыть значок в строке меню";
+"settings.hide_menu_bar_icon.alert" = "Если вам нужно получить доступ к меню LivePaper, перезапустите приложение, и значок в строке меню будет отображаться в течение 5 секунд.";
+"settings.clear_website_data" = "Очистить все данные сайтов";
+"settings.clear_website_data.help" = "Очищает все куки, локальное хранилище, кэш и т.д.";
+
+/* Сочетания клавиш */
+"shortcuts.toggle_enabled" = "Включить/выключить";
+"shortcuts.toggle_browsing_mode" = "Переключить режим просмотра";
+"shortcuts.reload" = "Обновить сайт";
+"shortcuts.next_website" = "Следующий сайт";
+"shortcuts.previous_website" = "Предыдущий сайт";
+"shortcuts.random_website" = "Случайный сайт";
+
+/* Добавление сайта */
+"add_website.url" = "URL";
+"add_website.title" = "Название";
+"add_website.local_website" = "Локальный сайт...";
+"add_website.choose_local.title" = "Выбрать локальный сайт";
+"add_website.choose_local.message" = "Пожалуйста, выберите директорию, содержащую файл \"index.html\".";
+"add_website.choose_local.prompt" = "Выбрать";
+"add_website.choose_local.error" = "Пожалуйста, выберите директорию, содержащую файл \"index.html\".";
+"add_website.example" = "Например, вы можете";
+"add_website.example.show_time" = "показать время.";
+"add_website.invert_colors" = "Инвертировать цвета";
+"add_website.invert_colors.help" = "Создает имитацию темного режима для сайтов без встроенного темного режима путем инвертирования всех цветов на сайте.";
+"add_website.print_styles" = "Использовать стили для печати";
+"add_website.print_styles.help" = "Принудительно использует стили для печати (\"@media print\"), если они есть на сайте. Некоторые сайты имеют более простое представление для печати.";
+"add_website.css.title" = "CSS";
+"add_website.css.help" = "Позволяет модифицировать сайт с помощью CSS. Например, вы можете изменить цвета или скрыть ненужные элементы.";
+"add_website.javascript.title" = "JavaScript";
+"add_website.javascript.help" = "Позволяет модифицировать сайт с помощью JavaScript. По возможности используйте CSS.";
+"add_website.advanced" = "Дополнительные настройки";
+"add_website.allow_self_signed" = "Разрешить самоподписанный сертификат";
+
+/* Экран приветствия */
+"welcome.title" = "Добро пожаловать в LivePaper!";
+"welcome.message" = "LivePaper находится в строке меню (значок капли в правом верхнем углу экрана). Нажмите на него и выберите \"Добавить сайт...\", чтобы начать.\n\nИспользуйте \"Режим просмотра\", когда вам нужно войти на сайт или выполнить другие действия.\n\nПримечание: Поддержка нескольких мониторов в настоящее время ограничена выбором монитора для отображения сайта.";
+"welcome.continue" = "Продолжить";
+"welcome.feedback.title" = "Приветствуются отзывы";
+"welcome.feedback.message" = "Если у вас есть отзывы, сообщения об ошибках или предложения по улучшению, используйте кнопку отзыва в приложении. Я отвечаю на все сообщения.";
+"welcome.get_started" = "Начать работу с LivePaper";
+
+/* Советы по режиму просмотра */
+"browsing_mode.tip.title" = "Режим просмотра позволяет временно взаимодействовать с сайтом. Например, для входа или прокрутки до определенной позиции на сайте.";
+"browsing_mode.tip.message" = "Если вы не видите сайт, возможно, нужно скрыть некоторые окна, чтобы увидеть рабочий стол.";
+
+/* Советы по редактированию */
+"edit.tip" = "Дважды щелкните по сайтам в списке, чтобы редактировать их, переключать темный режим, добавлять пользовательские CSS/JavaScript и многое другое.";
+
+/* Сообщения об ошибках */
+"error.invalid_add_url" = "Неверный URL для команды \"add\".";
+"error.unsupported_command" = "Неподдерживаемая команда: \"%@\".";
+"error.server_not_found" = "Не удается подключиться к серверу";
+
+/* Параметры настроек */
+"settings.invert_colors.never" = "Никогда";
+"settings.invert_colors.always" = "Всегда";
+"settings.invert_colors.dark_mode" = "В темном режиме";
+"settings.invert_colors.title" = "Инвертировать цвета";
+"settings.print_styles" = "Использовать стили для печати";
+"settings.print_styles.help" = "Принудительно использует стили для печати (\"@media print\"), если они есть на сайте. Некоторые сайты имеют более простое представление для печати.";
+"settings.css.title" = "CSS";
+"settings.css.help" = "Позволяет модифицировать сайт с помощью CSS. Например, вы можете изменить цвета или скрыть ненужные элементы.";
+"settings.more_ideas" = "Больше идей";
+"settings.allow_self_signed" = "Разрешить самоподписанный сертификат";
+
+/* Подсказки */
+"tooltip.update_url" = "Обновить сохраненный URL в LivePaper до текущего URL";
+
+/* Кнопки диалогов */
+"dialog.keep" = "Оставить";
+"dialog.dont_keep" = "Не оставлять";
+"dialog.cancel" = "Отмена";
+"dialog.revert" = "Вернуть";
+"dialog.done" = "Готово";
+"dialog.add" = "Добавить";
+"dialog.restart_now" = "Перезапустить сейчас";
+"dialog.restart_later" = "Перезапустить позже";
+
+/* Строки, связанные с сайтом */
+"website.advanced_settings" = "Дополнительные настройки";
+"website.allow_self_signed_certificate" = "Разрешить самоподписанный сертификат";
+"website.edit_tip" = "Дважды щелкните по сайту в списке, чтобы редактировать его, переключать темный режим, добавлять пользовательские CSS/JavaScript и т.д.";
+"website.use_print_styles" = "Использовать стили для печати";
+"website.use_print_styles.help" = "Принудительно использует стили для печати (\"@media print\"), если они есть на сайте. Некоторые сайты имеют более простое представление для печати.";
+"website.css" = "CSS";
+"website.css.help" = "Позволяет модифицировать сайт с помощью CSS. Например, вы можете изменить цвета или скрыть ненужные элементы.";
+"website.javascript" = "JavaScript";
+"website.javascript.help" = "Позволяет модифицировать сайт с помощью JavaScript.";
+"website.advanced" = "Дополнительно";
+"website.invert_colors" = "Инвертировать цвета";
+"website.invert_colors.never" = "Никогда";
+"website.invert_colors.always" = "Всегда";
+"website.invert_colors.dark_mode" = "В темном режиме";
+"website.invert_colors.help" = "Создает имитацию темного режима для сайтов без встроенного темного режима путем инвертирования всех цветов на сайте."; 

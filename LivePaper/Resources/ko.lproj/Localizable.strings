@@ -1,0 +1,179 @@
+/* 메인 인터페이스 */
+"websites.title" = "웹사이트 목록";
+"websites.empty" = "웹사이트 없음";
+"websites.add" = "웹사이트 추가";
+"websites.make_current" = "현재 설정";
+"websites.edit" = "편집...";
+"websites.delete" = "삭제";
+"websites.manage" = "웹사이트 관리...";
+
+/* 메뉴 항목 */
+"menu.send_feedback" = "피드백 보내기...";
+"menu.examples" = "예시";
+"menu.tips" = "팁";
+"menu.faq" = "자주 묻는 질문";
+"menu.scripting" = "스크립팅";
+"menu.website" = "웹사이트";
+"menu.rate_app" = "앱 평가하기";
+"menu.reload" = "새로고침";
+"menu.browsing_mode" = "브라우징 모드";
+"menu.next" = "다음";
+"menu.previous" = "이전";
+"menu.random" = "무작위";
+"menu.switch" = "전환";
+"menu.edit" = "편집...";
+"menu.more_apps" = "더 많은 앱";
+"menu.settings" = "설정...";
+"menu.quit" = "LivePaper 종료";
+"menu.enable" = "활성화";
+"menu.disable" = "비활성화";
+"menu.disabled_on_battery" = "배터리 사용 시 비활성화됨";
+"menu.more" = "더 보기";
+
+/* 컨텍스트 메뉴 */
+"context.open_image" = "이미지 열기";
+"context.open_video" = "비디오 열기";
+"context.open_frame" = "프레임 열기";
+"context.open_link" = "링크 열기";
+"context.actual_size" = "실제 크기";
+"context.zoom_in" = "확대";
+"context.zoom_out" = "축소";
+"context.update_url" = "현재 웹사이트로 업데이트";
+"context.update_url.tooltip" = "LivePaper에 저장된 웹사이트 URL을 현재 URL로 업데이트";
+"context.show_menu_bar_icon" = "메뉴 바 아이콘 표시";
+
+/* 설정 */
+"settings.general" = "일반";
+"settings.shortcuts" = "단축키";
+"settings.advanced" = "고급";
+"settings.language" = "언어";
+"settings.language.system" = "시스템 기본값";
+"settings.language.english" = "English";
+"settings.language.chinese_simplified" = "简体中文";
+"settings.language.chinese_traditional" = "繁體中文";
+"settings.language.spanish" = "Español";
+"settings.language.french" = "Français";
+"settings.language.german" = "Deutsch";
+"settings.language.russian" = "Русский";
+"settings.language.portuguese" = "Português";
+"settings.language.japanese" = "日本語";
+"settings.language.korean" = "한국어";
+"settings.language.arabic" = "العربية";
+"settings.language.hindi" = "हिंदी";
+"settings.language.malay" = "Bahasa Melayu";
+"settings.language.italian" = "Italiano";
+"settings.language.turkish" = "Türkçe";
+"settings.language.help" = "앱 인터페이스의 표시 언어를 선택합니다. 변경 사항을 적용하려면 앱을 다시 시작해야 합니다.";
+"settings.language.restart_required" = "다시 시작 필요";
+"settings.language.restart_message" = "언어 설정이 변경되었습니다. 변경 사항을 적용하려면 앱을 다시 시작해야 합니다. 지금 다시 시작하시겠습니까?";
+"settings.launch_at_login" = "로그인 시 시작";
+"settings.reload_interval" = "새로고침 간격";
+"settings.reload_interval.minutes" = "분";
+"settings.reload_interval.accessibility" = "새로고침 간격 (분)";
+"settings.opacity" = "불투명도";
+"settings.opacity.help" = "브라우징 모드에서는 항상 완전 불투명도를 사용합니다.";
+"settings.display" = "표시할 화면";
+"settings.display.multi_monitor" = "다중 모니터 지원 >";
+"settings.show_on_all_spaces" = "모든 공간에 표시";
+"settings.show_on_all_spaces.help" = "비활성화하면 LivePaper는 시작 시 활성 공간에 표시됩니다.";
+"settings.bring_to_front" = "브라우징 모드에서 앞으로 가져오기";
+"settings.bring_to_front.help" = "브라우징 모드가 활성화되어 있을 때 웹사이트 창을 최상위에 유지합니다.";
+"settings.deactivate_on_battery" = "배터리 사용 시 비활성화";
+"settings.open_links_in_browser" = "외부 링크를 기본 브라우저에서 열기";
+"settings.open_links_in_browser.help" = "웹사이트에 로그인이 필요한 경우, 로그인 중에는 이 기능을 비활성화해야 합니다. 웹사이트가 다른 페이지로 이동해야 할 수 있으며, 이러한 페이지들이 LivePaper 대신 브라우저에서 열리는 것을 원하지 않을 수 있습니다.";
+"settings.mute_audio" = "오디오 음소거";
+"settings.hide_menu_bar_icon" = "메뉴 바 아이콘 숨기기";
+"settings.hide_menu_bar_icon.alert" = "LivePaper 메뉴에 접근해야 하는 경우, 앱을 다시 시작하면 메뉴 바 아이콘이 5초 동안 표시됩니다.";
+"settings.clear_website_data" = "모든 웹사이트 데이터 지우기";
+"settings.clear_website_data.help" = "모든 쿠키, 로컬 스토리지, 캐시 등을 지웁니다.";
+
+/* 단축키 */
+"shortcuts.toggle_enabled" = "활성화 전환";
+"shortcuts.toggle_browsing_mode" = "브라우징 모드 전환";
+"shortcuts.reload" = "웹사이트 새로고침";
+"shortcuts.next_website" = "다음 웹사이트";
+"shortcuts.previous_website" = "이전 웹사이트";
+"shortcuts.random_website" = "무작위 웹사이트";
+
+/* 웹사이트 추가 */
+"add_website.url" = "URL";
+"add_website.title" = "제목";
+"add_website.local_website" = "로컬 웹사이트...";
+"add_website.choose_local.title" = "로컬 웹사이트 선택";
+"add_website.choose_local.message" = "\"index.html\" 파일이 포함된 디렉토리를 선택하세요.";
+"add_website.choose_local.prompt" = "선택";
+"add_website.choose_local.error" = "\"index.html\" 파일이 포함된 디렉토리를 선택하세요.";
+"add_website.example" = "예를 들어,";
+"add_website.example.show_time" = "시간을 표시할 수 있습니다.";
+"add_website.invert_colors" = "색상 반전";
+"add_website.invert_colors.help" = "기본 다크 모드가 없는 웹사이트의 모든 색상을 반전시켜 시뮬레이션된 다크 모드를 만듭니다.";
+"add_website.print_styles" = "인쇄 스타일 사용";
+"add_website.print_styles.help" = "웹사이트에 인쇄 스타일(\"@media print\")이 있는 경우 강제로 사용합니다. Google Calendar와 같은 일부 웹사이트는 인쇄용으로 더 단순한 레이아웃을 가지고 있습니다.";
+"add_website.css.title" = "CSS";
+"add_website.css.help" = "CSS를 사용하여 웹사이트를 수정할 수 있습니다. 예를 들어, 일부 색상을 변경하거나 불필요한 요소를 숨길 수 있습니다.";
+"add_website.javascript.title" = "JavaScript";
+"add_website.javascript.help" = "JavaScript를 사용하여 웹사이트를 수정할 수 있습니다. 가능한 경우 CSS를 선호하세요.";
+"add_website.advanced" = "고급 설정";
+"add_website.allow_self_signed" = "자체 서명 인증서 허용";
+
+/* 환영 화면 */
+"welcome.title" = "LivePaper에 오신 것을 환영합니다!";
+"welcome.message" = "LivePaper는 메뉴 바에 있습니다(화면 오른쪽 상단의 물방울 아이콘). 시작하려면 클릭하고 \"웹사이트 추가...\"를 선택하세요.\n\n웹사이트에 로그인하거나 다른 상호작용이 필요할 때는 \"브라우징 모드\"를 사용하세요.\n\n참고: 현재 다중 모니터 지원은 웹사이트를 표시할 화면을 선택하는 것으로 제한됩니다.";
+"welcome.continue" = "계속";
+"welcome.feedback.title" = "피드백 환영";
+"welcome.feedback.message" = "피드백, 버그 리포트 또는 기능 요청이 있으시면 앱의 피드백 버튼을 사용해 주세요. 모든 제출에 응답해 드립니다.";
+"welcome.get_started" = "LivePaper 시작하기";
+
+/* 브라우징 모드 팁 */
+"browsing_mode.tip.title" = "브라우징 모드를 사용하면 웹사이트와 일시적으로 상호작용할 수 있습니다. 예를 들어, 로그인하거나 웹사이트의 특정 위치로 스크롤할 수 있습니다.";
+"browsing_mode.tip.message" = "웹사이트가 보이지 않는 경우, 데스크톱을 표시하기 위해 일부 창을 숨겨야 할 수 있습니다.";
+
+/* 편집 팁 */
+"edit.tip" = "목록의 웹사이트를 더블 클릭하여 편집하고, 다크 모드를 전환하고, 사용자 정의 CSS/JavaScript를 추가하는 등의 작업을 할 수 있습니다.";
+
+/* 오류 메시지 */
+"error.invalid_add_url" = "\"add\" 명령에 대한 URL이 잘못되었습니다.";
+"error.unsupported_command" = "지원되지 않는 명령: \"%@\".";
+"error.server_not_found" = "서버에 연결할 수 없습니다";
+
+/* 설정 옵션 */
+"settings.invert_colors.never" = "사용 안 함";
+"settings.invert_colors.always" = "항상";
+"settings.invert_colors.dark_mode" = "다크 모드에서";
+"settings.invert_colors.title" = "색상 반전";
+"settings.print_styles" = "인쇄 스타일 사용";
+"settings.print_styles.help" = "웹사이트에 인쇄 스타일(\"@media print\")이 있는 경우 강제로 사용합니다. Google Calendar와 같은 일부 웹사이트는 인쇄용으로 더 단순한 레이아웃을 가지고 있습니다.";
+"settings.css.title" = "CSS";
+"settings.css.help" = "CSS를 사용하여 웹사이트를 수정할 수 있습니다. 예를 들어, 일부 색상을 변경하거나 불필요한 요소를 숨길 수 있습니다.";
+"settings.more_ideas" = "더 많은 아이디어";
+"settings.allow_self_signed" = "자체 서명 인증서 허용";
+
+/* 툴팁 */
+"tooltip.update_url" = "LivePaper에 저장된 웹사이트 URL을 현재 URL로 업데이트";
+
+/* 대화상자 버튼 */
+"dialog.keep" = "유지";
+"dialog.dont_keep" = "유지하지 않음";
+"dialog.cancel" = "취소";
+"dialog.revert" = "되돌리기";
+"dialog.done" = "완료";
+"dialog.add" = "추가";
+"dialog.restart_now" = "지금 다시 시작";
+"dialog.restart_later" = "나중에 다시 시작";
+
+/* 웹사이트 관련 문자열 */
+"website.advanced_settings" = "고급 설정";
+"website.allow_self_signed_certificate" = "자체 서명 인증서 허용";
+"website.edit_tip" = "목록의 웹사이트를 더블 클릭하여 편집하고, 다크 모드를 전환하고, 사용자 정의 CSS/JavaScript를 추가하는 등의 작업을 할 수 있습니다.";
+"website.use_print_styles" = "인쇄 스타일 사용";
+"website.use_print_styles.help" = "웹사이트에 인쇄 스타일(\"@media print\")이 있는 경우 강제로 사용합니다. Google Calendar와 같은 일부 웹사이트는 인쇄용으로 더 단순한 레이아웃을 가지고 있습니다.";
+"website.css" = "CSS";
+"website.css.help" = "CSS를 사용하여 웹사이트를 수정할 수 있습니다. 예를 들어, 일부 색상을 변경하거나 불필요한 요소를 숨길 수 있습니다.";
+"website.javascript" = "JavaScript";
+"website.javascript.help" = "JavaScript를 사용하여 웹사이트를 수정할 수 있습니다.";
+"website.advanced" = "고급";
+"website.invert_colors" = "색상 반전";
+"website.invert_colors.never" = "사용 안 함";
+"website.invert_colors.always" = "항상";
+"website.invert_colors.dark_mode" = "다크 모드에서";
+"website.invert_colors.help" = "기본 다크 모드가 없는 웹사이트의 모든 색상을 반전시켜 시뮬레이션된 다크 모드를 만듭니다."; 

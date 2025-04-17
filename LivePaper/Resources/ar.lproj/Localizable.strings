@@ -1,0 +1,179 @@
+/* الواجهة الرئيسية */
+"websites.title" = "قائمة المواقع";
+"websites.empty" = "لا توجد مواقع";
+"websites.add" = "إضافة موقع";
+"websites.make_current" = "تعيين كحالي";
+"websites.edit" = "تحرير...";
+"websites.delete" = "حذف";
+"websites.manage" = "إدارة المواقع...";
+
+/* عناصر القائمة */
+"menu.send_feedback" = "إرسال تعليق...";
+"menu.examples" = "أمثلة";
+"menu.tips" = "نصائح";
+"menu.faq" = "الأسئلة الشائعة";
+"menu.scripting" = "البرمجة النصية";
+"menu.website" = "الموقع";
+"menu.rate_app" = "تقييم التطبيق";
+"menu.reload" = "إعادة تحميل";
+"menu.browsing_mode" = "وضع التصفح";
+"menu.next" = "التالي";
+"menu.previous" = "السابق";
+"menu.random" = "عشوائي";
+"menu.switch" = "تبديل";
+"menu.edit" = "تحرير...";
+"menu.more_apps" = "المزيد من التطبيقات";
+"menu.settings" = "الإعدادات...";
+"menu.quit" = "إنهاء LivePaper";
+"menu.enable" = "تفعيل";
+"menu.disable" = "تعطيل";
+"menu.disabled_on_battery" = "معطل عند استخدام البطارية";
+"menu.more" = "المزيد";
+
+/* قائمة السياق */
+"context.open_image" = "فتح الصورة";
+"context.open_video" = "فتح الفيديو";
+"context.open_frame" = "فتح الإطار";
+"context.open_link" = "فتح الرابط";
+"context.actual_size" = "الحجم الفعلي";
+"context.zoom_in" = "تكبير";
+"context.zoom_out" = "تصغير";
+"context.update_url" = "تحديث إلى الموقع الحالي";
+"context.update_url.tooltip" = "تحديث عنوان URL المخزن في LivePaper إلى العنوان الحالي";
+"context.show_menu_bar_icon" = "إظهار أيقونة شريط القوائم";
+
+/* الإعدادات */
+"settings.general" = "عام";
+"settings.shortcuts" = "اختصارات";
+"settings.advanced" = "متقدم";
+"settings.language" = "اللغة";
+"settings.language.system" = "النظام الافتراضي";
+"settings.language.english" = "English";
+"settings.language.chinese_simplified" = "简体中文";
+"settings.language.chinese_traditional" = "繁體中文";
+"settings.language.spanish" = "Español";
+"settings.language.french" = "Français";
+"settings.language.german" = "Deutsch";
+"settings.language.russian" = "Русский";
+"settings.language.portuguese" = "Português";
+"settings.language.japanese" = "日本語";
+"settings.language.korean" = "한국어";
+"settings.language.arabic" = "العربية";
+"settings.language.hindi" = "हिंदी";
+"settings.language.malay" = "Bahasa Melayu";
+"settings.language.italian" = "Italiano";
+"settings.language.turkish" = "Türkçe";
+"settings.language.help" = "اختر لغة عرض واجهة التطبيق. تتطلب التغييرات إعادة تشغيل التطبيق لتصبح سارية المفعول.";
+"settings.launch_at_login" = "بدء التشغيل عند تسجيل الدخول";
+"settings.reload_interval" = "إعادة التحميل كل";
+"settings.reload_interval.minutes" = "دقائق";
+"settings.reload_interval.accessibility" = "فترة إعادة التحميل (دقائق)";
+"settings.opacity" = "الشفافية";
+"settings.opacity.help" = "يستخدم وضع التصفح دائمًا الشفافية الكاملة.";
+"settings.display" = "العرض على";
+"settings.display.multi_monitor" = "دعم الشاشات المتعددة >";
+"settings.show_on_all_spaces" = "إظهار في جميع المساحات";
+"settings.show_on_all_spaces.help" = "عند التعطيل، سيظهر LivePaper في المساحة النشطة عند بدء التشغيل.";
+"settings.bring_to_front" = "جلب إلى المقدمة في وضع التصفح";
+"settings.bring_to_front.help" = "الحفاظ على نافذة الموقع في المقدمة عندما يكون وضع التصفح نشطًا.";
+"settings.deactivate_on_battery" = "تعطيل عند استخدام البطارية";
+"settings.open_links_in_browser" = "فتح الروابط الخارجية في المتصفح الافتراضي";
+"settings.open_links_in_browser.help" = "إذا كان الموقع يتطلب تسجيل الدخول، يجب عليك تعطيل هذا أثناء تسجيل الدخول، حيث قد يحتاج الموقع إلى التنقل إلى صفحات أخرى.";
+"settings.mute_audio" = "كتم الصوت";
+"settings.hide_menu_bar_icon" = "إخفاء أيقونة شريط القوائم";
+"settings.hide_menu_bar_icon.alert" = "إذا كنت بحاجة إلى الوصول إلى قائمة LivePaper، أعد تشغيل التطبيق وستظهر أيقونة شريط القوائم لمدة 5 ثوانٍ.";
+"settings.clear_website_data" = "مسح جميع بيانات المواقع";
+"settings.clear_website_data.help" = "يمسح جميع ملفات تعريف الارتباط والتخزين المحلي وذاكرة التخزين المؤقت وما إلى ذلك.";
+"settings.language.restart_required" = "مطلوب إعادة التشغيل";
+"settings.language.restart_message" = "تم تغيير إعداد اللغة. يحتاج التطبيق إلى إعادة التشغيل لتطبيق التغييرات. هل تريد إعادة التشغيل الآن؟";
+
+/* الاختصارات */
+"shortcuts.toggle_enabled" = "تبديل التفعيل";
+"shortcuts.toggle_browsing_mode" = "تبديل وضع التصفح";
+"shortcuts.reload" = "إعادة تحميل الموقع";
+"shortcuts.next_website" = "الموقع التالي";
+"shortcuts.previous_website" = "الموقع السابق";
+"shortcuts.random_website" = "موقع عشوائي";
+
+/* إضافة موقع */
+"add_website.url" = "الرابط";
+"add_website.title" = "العنوان";
+"add_website.local_website" = "موقع محلي...";
+"add_website.choose_local.title" = "اختيار موقع محلي";
+"add_website.choose_local.message" = "الرجاء تحديد مجلد يحتوي على ملف \"index.html\".";
+"add_website.choose_local.prompt" = "اختيار";
+"add_website.choose_local.error" = "الرجاء تحديد مجلد يحتوي على ملف \"index.html\".";
+"add_website.example" = "على سبيل المثال،";
+"add_website.example.show_time" = "عرض الوقت.";
+"add_website.invert_colors" = "عكس الألوان";
+"add_website.invert_colors.help" = "ينشئ وضعًا داكنًا محاكيًا للمواقع التي لا تحتوي على وضع داكن أصلي عن طريق عكس جميع الألوان على الموقع.";
+"add_website.print_styles" = "استخدام أنماط الطباعة";
+"add_website.print_styles.help" = "يفرض استخدام أنماط الطباعة (\"@media print\") إذا كان الموقع يحتوي عليها. بعض المواقع لديها عرض أبسط للطباعة.";
+"add_website.css.title" = "CSS";
+"add_website.css.help" = "يتيح لك هذا تعديل الموقع باستخدام CSS. على سبيل المثال، يمكنك تغيير بعض الألوان أو إخفاء العناصر غير الضرورية.";
+"add_website.javascript.title" = "JavaScript";
+"add_website.javascript.help" = "يتيح لك هذا تعديل الموقع باستخدام JavaScript. فضل CSS عندما يكون ذلك ممكنًا.";
+"add_website.advanced" = "إعدادات متقدمة";
+"add_website.allow_self_signed" = "السماح بالشهادة الموقعة ذاتيًا";
+
+/* شاشة الترحيب */
+"welcome.title" = "مرحبًا بك في LivePaper!";
+"welcome.message" = "LivePaper يوجد في شريط القوائم (أيقونة القطرة في أعلى يمين شاشتك). انقر عليها واختر \"إضافة موقع...\" للبدء.\n\nاستخدم \"وضع التصفح\" عندما تحتاج إلى تسجيل الدخول إلى موقع أو إجراء تفاعلات أخرى.\n\nملاحظة: دعم الشاشات المتعددة مقتصر حاليًا على اختيار الشاشة التي سيتم عرض الموقع عليها.";
+"welcome.continue" = "متابعة";
+"welcome.feedback.title" = "نرحب بالتعليقات";
+"welcome.feedback.message" = "إذا كان لديك أي تعليقات أو تقارير عن الأخطاء أو طلبات للميزات، يرجى استخدام زر التعليقات في التطبيق. أرد على جميع الإرسالات.";
+"welcome.get_started" = "البدء مع LivePaper";
+
+/* نصائح وضع التصفح */
+"browsing_mode.tip.title" = "يتيح لك وضع التصفح التفاعل مؤقتًا مع الموقع. على سبيل المثال، لتسجيل الدخول أو التمرير إلى موضع معين على الموقع.";
+"browsing_mode.tip.message" = "إذا لم تتمكن من رؤية الموقع، قد تحتاج إلى إخفاء بعض النوافذ لإظهار سطح المكتب.";
+
+/* نصائح التحرير */
+"edit.tip" = "انقر نقرًا مزدوجًا على المواقع في القائمة لتحريرها وتبديل الوضع الداكن وإضافة CSS/JavaScript مخصص والمزيد.";
+
+/* رسائل الخطأ */
+"error.invalid_add_url" = "عنوان URL غير صالح لأمر \"add\".";
+"error.unsupported_command" = "أمر غير مدعوم: \"%@\".";
+"error.server_not_found" = "لا يمكن الاتصال بالخادم";
+
+/* خيارات الإعدادات */
+"settings.invert_colors.never" = "أبدًا";
+"settings.invert_colors.always" = "دائمًا";
+"settings.invert_colors.dark_mode" = "في الوضع الداكن";
+"settings.invert_colors.title" = "عكس الألوان";
+"settings.print_styles" = "استخدام أنماط الطباعة";
+"settings.print_styles.help" = "يفرض استخدام أنماط الطباعة (\"@media print\") إذا كان الموقع يحتوي عليها. بعض المواقع لديها عرض أبسط للطباعة.";
+"settings.css.title" = "CSS";
+"settings.css.help" = "يتيح لك هذا تعديل الموقع باستخدام CSS. على سبيل المثال، يمكنك تغيير بعض الألوان أو إخفاء العناصر غير الضرورية.";
+"settings.more_ideas" = "المزيد من الأفكار";
+"settings.allow_self_signed" = "السماح بالشهادة الموقعة ذاتيًا";
+
+/* تلميحات الأدوات */
+"tooltip.update_url" = "تحديث عنوان URL المخزن في LivePaper إلى العنوان الحالي";
+
+/* أزرار مربع الحوار */
+"dialog.keep" = "احتفاظ";
+"dialog.dont_keep" = "عدم الاحتفاظ";
+"dialog.cancel" = "إلغاء";
+"dialog.revert" = "تراجع";
+"dialog.done" = "تم";
+"dialog.add" = "إضافة";
+"dialog.restart_now" = "إعادة التشغيل الآن";
+"dialog.restart_later" = "إعادة التشغيل لاحقًا";
+
+/* نصوص متعلقة بالموقع */
+"website.advanced_settings" = "إعدادات متقدمة";
+"website.allow_self_signed_certificate" = "السماح بالشهادة الموقعة ذاتيًا";
+"website.edit_tip" = "انقر نقرًا مزدوجًا على موقع في القائمة لتحريره وتبديل الوضع الداكن وإضافة CSS/JavaScript مخصص وما إلى ذلك.";
+"website.use_print_styles" = "استخدام أنماط الطباعة";
+"website.use_print_styles.help" = "يفرض استخدام أنماط الطباعة (\"@media print\") إذا كان الموقع يحتوي عليها. بعض المواقع لديها عرض أبسط للطباعة.";
+"website.css" = "CSS";
+"website.css.help" = "يتيح لك هذا تعديل الموقع باستخدام CSS. على سبيل المثال، يمكنك تغيير بعض الألوان أو إخفاء العناصر غير الضرورية.";
+"website.javascript" = "JavaScript";
+"website.javascript.help" = "يتيح لك هذا تعديل الموقع باستخدام JavaScript.";
+"website.advanced" = "متقدم";
+"website.invert_colors" = "عكس الألوان";
+"website.invert_colors.never" = "أبدًا";
+"website.invert_colors.always" = "دائمًا";
+"website.invert_colors.dark_mode" = "في الوضع الداكن";
+"website.invert_colors.help" = "ينشئ وضعًا داكنًا محاكيًا للمواقع التي لا تحتوي على وضع داكن أصلي عن طريق عكس جميع الألوان على الموقع."; 

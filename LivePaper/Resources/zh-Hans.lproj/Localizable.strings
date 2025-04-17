@@ -1,0 +1,179 @@
+/* 主界面 */
+"websites.title" = "网站列表";
+"websites.empty" = "暂无网站";
+"websites.add" = "添加网站";
+"websites.make_current" = "设为当前";
+"websites.edit" = "编辑...";
+"websites.delete" = "删除";
+"websites.manage" = "网站管理...";
+
+/* 菜单项 */
+"menu.send_feedback" = "发送反馈...";
+"menu.examples" = "示例";
+"menu.tips" = "使用技巧";
+"menu.faq" = "常见问题";
+"menu.scripting" = "脚本控制";
+"menu.website" = "官方网站";
+"menu.rate_app" = "为应用评分";
+"menu.reload" = "重新加载";
+"menu.browsing_mode" = "浏览模式";
+"menu.next" = "下一个";
+"menu.previous" = "上一个";
+"menu.random" = "随机";
+"menu.switch" = "切换";
+"menu.edit" = "编辑...";
+"menu.more_apps" = "更多应用";
+"menu.settings" = "设置...";
+"menu.quit" = "退出 LivePaper";
+"menu.enable" = "启用";
+"menu.disable" = "禁用";
+"menu.disabled_on_battery" = "使用电池时已停用";
+"menu.more" = "更多";
+
+/* 上下文菜单 */
+"context.open_image" = "打开图片";
+"context.open_video" = "打开视频";
+"context.open_frame" = "打开框架";
+"context.open_link" = "打开链接";
+"context.actual_size" = "实际大小";
+"context.zoom_in" = "放大";
+"context.zoom_out" = "缩小";
+"context.update_url" = "更新为当前网站";
+"context.update_url.tooltip" = "将 LivePaper 中存储的网站 URL 更新为当前 URL";
+"context.show_menu_bar_icon" = "显示菜单栏图标";
+
+/* 设置 */
+"settings.general" = "通用";
+"settings.shortcuts" = "快捷键";
+"settings.advanced" = "高级";
+"settings.language" = "语言";
+"settings.language.system" = "系统默认";
+"settings.language.english" = "English";
+"settings.language.chinese_simplified" = "简体中文";
+"settings.language.chinese_traditional" = "繁體中文";
+"settings.language.spanish" = "Español";
+"settings.language.french" = "Français";
+"settings.language.german" = "Deutsch";
+"settings.language.russian" = "Русский";
+"settings.language.portuguese" = "Português";
+"settings.language.japanese" = "日本語";
+"settings.language.korean" = "한국어";
+"settings.language.arabic" = "العربية";
+"settings.language.hindi" = "हिंदी";
+"settings.language.malay" = "Bahasa Melayu";
+"settings.language.italian" = "Italiano";
+"settings.language.turkish" = "Türkçe";
+"settings.language.help" = "选择应用界面的显示语言。更改后需要重启应用才能生效。";
+"settings.language.restart_required" = "需要重启应用";
+"settings.language.restart_message" = "语言设置已更改，需要重启应用才能生效。是否立即重启？";
+"settings.launch_at_login" = "开机时启动";
+"settings.reload_interval" = "每隔";
+"settings.reload_interval.minutes" = "分钟重新加载";
+"settings.reload_interval.accessibility" = "重新加载间隔（分钟）";
+"settings.opacity" = "不透明度";
+"settings.opacity.help" = "浏览模式始终使用完全不透明。";
+"settings.display" = "显示在";
+"settings.display.multi_monitor" = "多显示器支持 >";
+"settings.show_on_all_spaces" = "在所有桌面显示";
+"settings.show_on_all_spaces.help" = "禁用时，LivePaper 将在启动时显示在当前活动的桌面上。";
+"settings.bring_to_front" = "浏览模式时置顶";
+"settings.bring_to_front.help" = "浏览模式激活时保持网站窗口在最上层。";
+"settings.deactivate_on_battery" = "使用电池时停用";
+"settings.open_links_in_browser" = "在默认浏览器中打开外部链接";
+"settings.open_links_in_browser.help" = "如果网站需要登录，您应该在登录时禁用此设置，因为网站可能需要您导航到其他页面，而您不希望这些页面在浏览器而不是 LivePaper 中打开。";
+"settings.mute_audio" = "静音";
+"settings.hide_menu_bar_icon" = "隐藏菜单栏图标";
+"settings.hide_menu_bar_icon.alert" = "如果您需要访问 LivePaper 菜单，请重新启动应用，菜单栏图标将显示 5 秒钟。";
+"settings.clear_website_data" = "清除所有网站数据";
+"settings.clear_website_data.help" = "清除所有 Cookie、本地存储、缓存等。";
+
+/* 快捷键设置 */
+"shortcuts.toggle_enabled" = "切换启用状态";
+"shortcuts.toggle_browsing_mode" = "切换浏览模式";
+"shortcuts.reload" = "重新加载网站";
+"shortcuts.next_website" = "下一个网站";
+"shortcuts.previous_website" = "上一个网站";
+"shortcuts.random_website" = "随机网站";
+
+/* 添加网站 */
+"add_website.url" = "网址";
+"add_website.title" = "标题";
+"add_website.local_website" = "选择本地网站";
+"add_website.choose_local.title" = "选择本地网站";
+"add_website.choose_local.message" = "请选择包含 index.html 文件的文件夹";
+"add_website.choose_local.prompt" = "选择";
+"add_website.choose_local.error" = "所选文件夹必须包含 index.html 文件";
+"add_website.example" = "示例：";
+"add_website.example.show_time" = "显示时间";
+"add_website.invert_colors" = "反转颜色";
+"add_website.invert_colors.help" = "为没有原生深色模式的网站创建模拟深色模式，通过反转网站上的所有颜色。";
+"add_website.print_styles" = "使用打印样式";
+"add_website.print_styles.help" = "如果网站有打印样式（\"@media print\"），则强制使用。一些网站在打印时有更简单的展示方式，例如 Google 日历。";
+"add_website.css.title" = "CSS";
+"add_website.css.help" = "这允许您使用 CSS 修改网站。例如，您可以更改一些颜色或隐藏一些不必要的元素。";
+"add_website.javascript.title" = "JavaScript";
+"add_website.javascript.help" = "这允许您使用 JavaScript 修改网站。尽可能优先使用 CSS。您可以在顶层使用 \"await\"。";
+"add_website.advanced" = "高级";
+"add_website.allow_self_signed" = "允许自签名证书";
+
+/* 欢迎界面 */
+"welcome.title" = "欢迎使用 LivePaper！";
+"welcome.message" = "LivePaper 位于菜单栏中（屏幕右上角的液滴图标）。点击它然后选择\"添加网站...\"开始使用。\n\n如果需要登录网站或进行其他交互操作，请使用\"浏览模式\"。\n\n注意：目前对多显示器的支持仅限于选择在哪个显示器上显示网站。";
+"welcome.continue" = "继续";
+"welcome.feedback.title" = "欢迎反馈";
+"welcome.feedback.message" = "如果您有任何反馈、错误报告或功能建议，请使用应用中的反馈按钮。我会及时回复所有提交。";
+"welcome.get_started" = "开始使用 LivePaper";
+
+/* 浏览模式提示 */
+"browsing_mode.tip.title" = "浏览模式允许您临时与网站进行交互。例如，登录账号或滚动到网站上的特定位置。";
+"browsing_mode.tip.message" = "如果您当前看不到网站，可能需要隐藏一些窗口以显示桌面。";
+
+/* 编辑提示 */
+"edit.tip" = "双击列表中的网站进行编辑，切换深色模式，添加自定义 CSS/JavaScript 等。";
+
+/* 错误信息 */
+"error.invalid_add_url" = "\"add\" 命令的 URL 无效。";
+"error.unsupported_command" = "不支持的命令：\"%@\"。";
+"error.server_not_found" = "无法连接到服务器";
+
+/* 设置选项 */
+"settings.invert_colors.never" = "从不";
+"settings.invert_colors.always" = "始终";
+"settings.invert_colors.dark_mode" = "深色模式时";
+"settings.invert_colors.title" = "反转颜色";
+"settings.print_styles" = "使用打印样式";
+"settings.print_styles.help" = "如果网站有打印样式（\"@media print\"），则强制使用。一些网站在打印时有更简单的展示方式，例如 Google 日历。";
+"settings.css.title" = "CSS";
+"settings.css.help" = "这允许您使用 CSS 修改网站。例如，您可以更改一些颜色或隐藏一些不必要的元素。";
+"settings.more_ideas" = "更多创意";
+"settings.allow_self_signed" = "允许自签名证书";
+
+/* 提示信息 */
+"tooltip.update_url" = "将 LivePaper 中存储的网站 URL 更新为当前 URL";
+
+/* 对话框按钮 */
+"dialog.keep" = "保留";
+"dialog.dont_keep" = "不保留";
+"dialog.cancel" = "取消";
+"dialog.revert" = "还原";
+"dialog.done" = "完成";
+"dialog.add" = "添加";
+"dialog.restart_now" = "立即重启";
+"dialog.restart_later" = "稍后重启";
+
+/* 新添加的网站相关字符串 */
+"website.advanced_settings" = "高级设置";
+"website.allow_self_signed_certificate" = "允许自签名证书";
+"website.edit_tip" = "双击列表中的网站进行编辑，切换深色模式，添加自定义 CSS/JavaScript 等。";
+"website.use_print_styles" = "使用打印样式";
+"website.use_print_styles.help" = "如果网站有打印样式（\"@media print\"），则强制使用。一些网站在打印时有更简单的展示方式，例如 Google 日历。";
+"website.css" = "CSS";
+"website.css.help" = "这允许您使用 CSS 修改网站。例如，您可以更改一些颜色或隐藏一些不必要的元素。";
+"website.javascript" = "JavaScript";
+"website.javascript.help" = "这允许您使用 JavaScript 修改网站。";
+"website.advanced" = "高级";
+"website.invert_colors" = "反转颜色";
+"website.invert_colors.never" = "从不";
+"website.invert_colors.always" = "始终";
+"website.invert_colors.dark_mode" = "在深色模式时";
+"website.invert_colors.help" = "为没有原生深色模式的网站创建模拟深色模式，通过反转网站上的所有颜色。"; 

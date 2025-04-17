@@ -1,0 +1,179 @@
+/* मुख्य इंटरफ़ेस */
+"websites.title" = "वेबसाइट सूची";
+"websites.empty" = "कोई वेबसाइट नहीं";
+"websites.add" = "वेबसाइट जोड़ें";
+"websites.make_current" = "वर्तमान के रूप में सेट करें";
+"websites.edit" = "संपादित करें...";
+"websites.delete" = "हटाएं";
+"websites.manage" = "वेबसाइट प्रबंधित करें...";
+
+/* मेनू आइटम */
+"menu.send_feedback" = "प्रतिक्रिया भेजें...";
+"menu.examples" = "उदाहरण";
+"menu.tips" = "सुझाव";
+"menu.faq" = "सामान्य प्रश्न";
+"menu.scripting" = "स्क्रिप्टिंग";
+"menu.website" = "वेबसाइट";
+"menu.rate_app" = "ऐप को रेट करें";
+"menu.reload" = "रीलोड करें";
+"menu.browsing_mode" = "ब्राउज़िंग मोड";
+"menu.next" = "अगला";
+"menu.previous" = "पिछला";
+"menu.random" = "यादृच्छिक";
+"menu.switch" = "बदलें";
+"menu.edit" = "संपादित करें...";
+"menu.more_apps" = "अधिक ऐप्स";
+"menu.settings" = "सेटिंग्स...";
+"menu.quit" = "LivePaper से बाहर निकलें";
+"menu.enable" = "सक्षम करें";
+"menu.disable" = "अक्षम करें";
+"menu.disabled_on_battery" = "बैटरी पर अक्षम";
+"menu.more" = "अधिक";
+
+/* संदर्भ मेनू */
+"context.open_image" = "छवि खोलें";
+"context.open_video" = "वीडियो खोलें";
+"context.open_frame" = "फ्रेम खोलें";
+"context.open_link" = "लिंक खोलें";
+"context.actual_size" = "वास्तविक आकार";
+"context.zoom_in" = "ज़ूम इन";
+"context.zoom_out" = "ज़ूम आउट";
+"context.update_url" = "वर्तमान वेबसाइट में अपडेट करें";
+"context.update_url.tooltip" = "LivePaper में सहेजी गई वेबसाइट के URL को वर्तमान URL में अपडेट करें";
+"context.show_menu_bar_icon" = "मेनू बार आइकन दिखाएं";
+
+/* सेटिंग्स */
+"settings.general" = "सामान्य";
+"settings.shortcuts" = "शॉर्टकट";
+"settings.advanced" = "उन्नत";
+"settings.language" = "भाषा";
+"settings.language.system" = "सिस्टम डिफ़ॉल्ट";
+"settings.language.english" = "English";
+"settings.language.chinese_simplified" = "简体中文";
+"settings.language.chinese_traditional" = "繁體中文";
+"settings.language.spanish" = "Español";
+"settings.language.french" = "Français";
+"settings.language.german" = "Deutsch";
+"settings.language.russian" = "Русский";
+"settings.language.portuguese" = "Português";
+"settings.language.japanese" = "日本語";
+"settings.language.korean" = "한국어";
+"settings.language.arabic" = "العربية";
+"settings.language.hindi" = "हिंदी";
+"settings.language.malay" = "Bahasa Melayu";
+"settings.language.italian" = "Italiano";
+"settings.language.turkish" = "Türkçe";
+"settings.language.help" = "ऐप इंटरफ़ेस के लिए प्रदर्शन भाषा चुनें। परिवर्तन प्रभावी होने के लिए ऐप को पुनरारंभ करना आवश्यक है।";
+"settings.language.restart_required" = "पुनरारंभ आवश्यक";
+"settings.language.restart_message" = "भाषा सेटिंग्स बदल दी गई हैं। परिवर्तन लागू करने के लिए ऐप को पुनरारंभ करना होगा। क्या आप अभी पुनरारंभ करना चाहते हैं?";
+"settings.launch_at_login" = "लॉगिन पर लॉन्च करें";
+"settings.reload_interval" = "रीलोड अंतराल";
+"settings.reload_interval.minutes" = "मिनट";
+"settings.reload_interval.accessibility" = "रीलोड अंतराल (मिनट)";
+"settings.opacity" = "अपारदर्शिता";
+"settings.opacity.help" = "ब्राउज़िंग मोड हमेशा पूर्ण अपारदर्शिता का उपयोग करता है।";
+"settings.display" = "प्रदर्शित करें";
+"settings.display.multi_monitor" = "मल्टी-मॉनिटर समर्थन >";
+"settings.show_on_all_spaces" = "सभी स्पेस पर दिखाएं";
+"settings.show_on_all_spaces.help" = "जब अक्षम किया जाता है, तो LivePaper लॉन्च पर सक्रिय स्पेस में दिखाई देगा।";
+"settings.bring_to_front" = "ब्राउज़िंग मोड में सामने लाएं";
+"settings.bring_to_front.help" = "जब ब्राउज़िंग मोड सक्रिय हो तो वेबसाइट विंडो को सामने रखें।";
+"settings.deactivate_on_battery" = "बैटरी पर निष्क्रिय करें";
+"settings.open_links_in_browser" = "बाहरी लिंक डिफ़ॉल्ट ब्राउज़र में खोलें";
+"settings.open_links_in_browser.help" = "यदि वेबसाइट को लॉगिन की आवश्यकता है, तो लॉगिन के दौरान इस विकल्प को अक्षम करें क्योंकि साइट को अन्य पृष्ठों पर नेविगेट करने की आवश्यकता हो सकती है।";
+"settings.mute_audio" = "ऑडियो म्यूट करें";
+"settings.hide_menu_bar_icon" = "मेनू बार आइकन छिपाएं";
+"settings.hide_menu_bar_icon.alert" = "यदि आपको LivePaper मेनू तक पहुंचने की आवश्यकता है, तो ऐप को पुनरारंभ करें और मेनू बार आइकन 5 सेकंड के लिए दिखाई देगा।";
+"settings.clear_website_data" = "सभी वेबसाइट डेटा साफ़ करें";
+"settings.clear_website_data.help" = "सभी कुकीज़, लोकल स्टोरेज, कैश, आदि साफ़ करें।";
+
+/* शॉर्टकट */
+"shortcuts.toggle_enabled" = "टॉगल सक्षम/अक्षम";
+"shortcuts.toggle_browsing_mode" = "ब्राउज़िंग मोड टॉगल करें";
+"shortcuts.reload" = "वेबसाइट रीलोड करें";
+"shortcuts.next_website" = "अगली वेबसाइट";
+"shortcuts.previous_website" = "पिछली वेबसाइट";
+"shortcuts.random_website" = "यादृच्छिक वेबसाइट";
+
+/* वेबसाइट जोड़ें */
+"add_website.url" = "URL";
+"add_website.title" = "शीर्षक";
+"add_website.local_website" = "स्थानीय वेबसाइट...";
+"add_website.choose_local.title" = "स्थानीय वेबसाइट चुनें";
+"add_website.choose_local.message" = "\"index.html\" फ़ाइल वाली डायरेक्टरी चुनें।";
+"add_website.choose_local.prompt" = "चुनें";
+"add_website.choose_local.error" = "\"index.html\" फ़ाइल वाली डायरेक्टरी चुनें।";
+"add_website.example" = "उदाहरण के लिए, आप";
+"add_website.example.show_time" = "समय दिखा सकते हैं।";
+"add_website.invert_colors" = "रंग उलटें";
+"add_website.invert_colors.help" = "उन वेबसाइटों के लिए सिमुलेटेड डार्क मोड बनाएं जिनके पास मूल डार्क मोड नहीं है, साइट पर सभी रंगों को उलटकर।";
+"add_website.print_styles" = "प्रिंट स्टाइल का उपयोग करें";
+"add_website.print_styles.help" = "यदि वेबसाइट के पास हैं तो प्रिंट स्टाइल (\"@media print\") का उपयोग करने के लिए बाध्य करें। कुछ वेबसाइटों के पास प्रिंट के लिए सरल प्रस्तुति होती है।";
+"add_website.css.title" = "CSS";
+"add_website.css.help" = "यह आपको CSS का उपयोग करके वेबसाइट को संशोधित करने की अनुमति देता है। उदाहरण के लिए, आप कुछ रंग बदल सकते हैं या अनावश्यक तत्वों को छिपा सकते हैं।";
+"add_website.javascript.title" = "JavaScript";
+"add_website.javascript.help" = "यह आपको JavaScript का उपयोग करके वेबसाइट को संशोधित करने की अनुमति देता है। जहां संभव हो CSS का उपयोग करें।";
+"add_website.advanced" = "उन्नत सेटिंग्स";
+"add_website.allow_self_signed" = "स्व-हस्ताक्षरित प्रमाणपत्र की अनुमति दें";
+
+/* स्वागत स्क्रीन */
+"welcome.title" = "LivePaper में आपका स्वागत है!";
+"welcome.message" = "LivePaper मेनू बार में रहता है (स्क्रीन के ऊपरी दाएं कोने में बूंद का आइकन)। आरंभ करने के लिए इसे क्लिक करें और \"वेबसाइट जोड़ें...\" चुनें।\n\nजब आपको वेबसाइट तक पहुंचने या अन्य इंटरैक्शन करने की आवश्यकता हो तो \"ब्राउज़िंग मोड\" का उपयोग करें।\n\nनोट: मल्टी-मॉनिटर समर्थन वर्तमान में वेबसाइट को प्रदर्शित करने के लिए डिस्प्ले चुनने तक सीमित है।";
+"welcome.continue" = "जारी रखें";
+"welcome.feedback.title" = "स्वागत प्रतिक्रिया";
+"welcome.feedback.message" = "यदि आपके पास कोई प्रतिक्रिया, बग रिपोर्ट या सुविधा अनुरोध है, तो ऐप में प्रतिक्रिया बटन का उपयोग करें। मैं सभी रिपोर्ट का जवाब देता हूं।";
+"welcome.get_started" = "LivePaper के साथ आरंभ करें";
+
+/* ब्राउज़िंग मोड सुझाव */
+"browsing_mode.tip.title" = "ब्राउज़िंग मोड आपको अस्थायी रूप से वेबसाइट के साथ इंटरैक्ट करने की अनुमति देता है। उदाहरण के लिए, लॉगिन करने या साइट पर किसी विशिष्ट स्थान पर स्क्रॉल करने के लिए।";
+"browsing_mode.tip.message" = "यदि आप वेबसाइट नहीं देख पा रहे हैं, तो आपको डेस्कटॉप को प्रकट करने के लिए कुछ विंडो को छिपाना पड़ सकता है।";
+
+/* संपादन सुझाव */
+"edit.tip" = "वेबसाइटों को संपादित करने, डार्क मोड सक्षम करने, कस्टम CSS/JavaScript जोड़ने और अधिक के लिए सूची में वेबसाइटों पर डबल-क्लिक करें।";
+
+/* त्रुटि संदेश */
+"error.invalid_add_url" = "\"add\" कमांड के लिए अमान्य URL।";
+"error.unsupported_command" = "असमर्थित कमांड: \"%@\"।";
+"error.server_not_found" = "सर्वर से कनेक्ट नहीं कर सका";
+
+/* सेटिंग्स विकल्प */
+"settings.invert_colors.never" = "कभी नहीं";
+"settings.invert_colors.always" = "हमेशा";
+"settings.invert_colors.dark_mode" = "डार्क मोड में";
+"settings.invert_colors.title" = "रंग उलटें";
+"settings.print_styles" = "प्रिंट स्टाइल का उपयोग करें";
+"settings.print_styles.help" = "यदि वेबसाइट के पास हैं तो प्रिंट स्टाइल (\"@media print\") का उपयोग करने के लिए बाध्य करें। कुछ वेबसाइटों के पास प्रिंट के लिए सरल प्रस्तुति होती है।";
+"settings.css.title" = "CSS";
+"settings.css.help" = "यह आपको CSS का उपयोग करके वेबसाइट को संशोधित करने की अनुमति देता है। उदाहरण के लिए, आप कुछ रंग बदल सकते हैं या अनावश्यक तत्वों को छिपा सकते हैं।";
+"settings.more_ideas" = "अधिक विचार";
+"settings.allow_self_signed" = "स्व-हस्ताक्षरित प्रमाणपत्र की अनुमति दें";
+
+/* टूलटिप */
+"tooltip.update_url" = "LivePaper में सहेजी गई वेबसाइट के URL को वर्तमान URL में अपडेट करें";
+
+/* डायलॉग बटन */
+"dialog.keep" = "रखें";
+"dialog.dont_keep" = "न रखें";
+"dialog.cancel" = "रद्द करें";
+"dialog.revert" = "वापस लें";
+"dialog.done" = "पूर्ण";
+"dialog.add" = "जोड़ें";
+"dialog.restart_now" = "अभी पुनरारंभ करें";
+"dialog.restart_later" = "बाद में पुनरारंभ करें";
+
+/* वेबसाइट संबंधित स्ट्रिंग्स */
+"website.advanced_settings" = "उन्नत सेटिंग्स";
+"website.allow_self_signed_certificate" = "स्व-हस्ताक्षरित प्रमाणपत्र की अनुमति दें";
+"website.edit_tip" = "वेबसाइटों को संपादित करने, डार्क मोड सक्षम करने, कस्टम CSS/JavaScript जोड़ने आदि के लिए सूची में वेबसाइटों पर डबल-क्लिक करें।";
+"website.use_print_styles" = "प्रिंट स्टाइल का उपयोग करें";
+"website.use_print_styles.help" = "यदि वेबसाइट के पास हैं तो प्रिंट स्टाइल (\"@media print\") का उपयोग करने के लिए बाध्य करें। कुछ वेबसाइटों के पास प्रिंट के लिए सरल प्रस्तुति होती है।";
+"website.css" = "CSS";
+"website.css.help" = "यह आपको CSS का उपयोग करके वेबसाइट को संशोधित करने की अनुमति देता है। उदाहरण के लिए, आप कुछ रंग बदल सकते हैं या अनावश्यक तत्वों को छिपा सकते हैं।";
+"website.javascript" = "JavaScript";
+"website.javascript.help" = "यह आपको JavaScript का उपयोग करके वेबसाइट को संशोधित करने की अनुमति देता है।";
+"website.advanced" = "उन्नत";
+"website.invert_colors" = "रंग उलटें";
+"website.invert_colors.never" = "कभी नहीं";
+"website.invert_colors.always" = "हमेशा";
+"website.invert_colors.dark_mode" = "डार्क मोड में";
+"website.invert_colors.help" = "उन वेबसाइटों के लिए सिमुलेटेड डार्क मोड बनाएं जिनके पास मूल डार्क मोड नहीं है, साइट पर सभी रंगों को उलटकर।"; 

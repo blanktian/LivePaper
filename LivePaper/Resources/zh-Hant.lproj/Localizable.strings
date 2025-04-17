@@ -1,0 +1,179 @@
+/* 主介面 */
+"websites.title" = "網站列表";
+"websites.empty" = "暫無網站";
+"websites.add" = "新增網站";
+"websites.make_current" = "設為當前";
+"websites.edit" = "編輯...";
+"websites.delete" = "刪除";
+"websites.manage" = "網站管理...";
+
+/* 選單項目 */
+"menu.send_feedback" = "發送回饋...";
+"menu.examples" = "範例";
+"menu.tips" = "使用技巧";
+"menu.faq" = "常見問題";
+"menu.scripting" = "腳本控制";
+"menu.website" = "官方網站";
+"menu.rate_app" = "為應用評分";
+"menu.reload" = "重新載入";
+"menu.browsing_mode" = "瀏覽模式";
+"menu.next" = "下一個";
+"menu.previous" = "上一個";
+"menu.random" = "隨機";
+"menu.switch" = "切換";
+"menu.edit" = "編輯...";
+"menu.more_apps" = "更多應用";
+"menu.settings" = "設定...";
+"menu.quit" = "退出 LivePaper";
+"menu.enable" = "啟用";
+"menu.disable" = "停用";
+"menu.disabled_on_battery" = "使用電池時已停用";
+"menu.more" = "更多";
+
+/* 上下文選單 */
+"context.open_image" = "開啟圖片";
+"context.open_video" = "開啟影片";
+"context.open_frame" = "開啟框架";
+"context.open_link" = "開啟連結";
+"context.actual_size" = "實際大小";
+"context.zoom_in" = "放大";
+"context.zoom_out" = "縮小";
+"context.update_url" = "更新為當前網站";
+"context.update_url.tooltip" = "將 LivePaper 中儲存的網站 URL 更新為當前 URL";
+"context.show_menu_bar_icon" = "顯示選單列圖示";
+
+/* 設定 */
+"settings.general" = "一般";
+"settings.shortcuts" = "快速鍵";
+"settings.advanced" = "進階";
+"settings.language" = "語言";
+"settings.language.system" = "系統預設";
+"settings.language.english" = "English";
+"settings.language.chinese_simplified" = "简体中文";
+"settings.language.chinese_traditional" = "繁體中文";
+"settings.language.spanish" = "Español";
+"settings.language.french" = "Français";
+"settings.language.german" = "Deutsch";
+"settings.language.russian" = "Русский";
+"settings.language.portuguese" = "Português";
+"settings.language.japanese" = "日本語";
+"settings.language.korean" = "한국어";
+"settings.language.arabic" = "العربية";
+"settings.language.hindi" = "हिंदी";
+"settings.language.malay" = "Bahasa Melayu";
+"settings.language.italian" = "Italiano";
+"settings.language.turkish" = "Türkçe";
+"settings.language.help" = "選擇應用介面的顯示語言。更改後需要重新啟動應用才能生效。";
+"settings.language.restart_required" = "需要重新啟動應用";
+"settings.language.restart_message" = "語言設定已更改，需要重新啟動應用才能生效。是否立即重新啟動？";
+"settings.launch_at_login" = "開機時啟動";
+"settings.reload_interval" = "每隔";
+"settings.reload_interval.minutes" = "分鐘重新載入";
+"settings.reload_interval.accessibility" = "重新載入間隔（分鐘）";
+"settings.opacity" = "不透明度";
+"settings.opacity.help" = "瀏覽模式始終使用完全不透明。";
+"settings.display" = "顯示在";
+"settings.display.multi_monitor" = "多顯示器支援 >";
+"settings.show_on_all_spaces" = "在所有桌面顯示";
+"settings.show_on_all_spaces.help" = "停用時，LivePaper 將在啟動時顯示在當前作用中的桌面上。";
+"settings.bring_to_front" = "瀏覽模式時置頂";
+"settings.bring_to_front.help" = "瀏覽模式啟用時保持網站視窗在最上層。";
+"settings.deactivate_on_battery" = "使用電池時停用";
+"settings.open_links_in_browser" = "在預設瀏覽器中開啟外部連結";
+"settings.open_links_in_browser.help" = "如果網站需要登入，您應該在登入時停用此設定，因為網站可能需要您導航到其他頁面，而您不希望這些頁面在瀏覽器而不是 LivePaper 中開啟。";
+"settings.mute_audio" = "靜音";
+"settings.hide_menu_bar_icon" = "隱藏選單列圖示";
+"settings.hide_menu_bar_icon.alert" = "如果您需要存取 LivePaper 選單，請重新啟動應用，選單列圖示將顯示 5 秒鐘。";
+"settings.clear_website_data" = "清除所有網站資料";
+"settings.clear_website_data.help" = "清除所有 Cookie、本地儲存、快取等。";
+
+/* 快速鍵設定 */
+"shortcuts.toggle_enabled" = "切換啟用狀態";
+"shortcuts.toggle_browsing_mode" = "切換瀏覽模式";
+"shortcuts.reload" = "重新載入網站";
+"shortcuts.next_website" = "下一個網站";
+"shortcuts.previous_website" = "上一個網站";
+"shortcuts.random_website" = "隨機網站";
+
+/* 新增網站 */
+"add_website.url" = "網址";
+"add_website.title" = "標題";
+"add_website.local_website" = "選擇本地網站";
+"add_website.choose_local.title" = "選擇本地網站";
+"add_website.choose_local.message" = "請選擇包含 index.html 檔案的資料夾";
+"add_website.choose_local.prompt" = "選擇";
+"add_website.choose_local.error" = "所選資料夾必須包含 index.html 檔案";
+"add_website.example" = "範例：";
+"add_website.example.show_time" = "顯示時間";
+"add_website.invert_colors" = "反轉顏色";
+"add_website.invert_colors.help" = "為沒有原生深色模式的網站建立模擬深色模式，透過反轉網站上的所有顏色。";
+"add_website.print_styles" = "使用列印樣式";
+"add_website.print_styles.help" = "如果網站有列印樣式（\"@media print\"），則強制使用。一些網站在列印時有更簡單的展示方式，例如 Google 日曆。";
+"add_website.css.title" = "CSS";
+"add_website.css.help" = "這允許您使用 CSS 修改網站。例如，您可以更改一些顏色或隱藏一些不必要的元素。";
+"add_website.javascript.title" = "JavaScript";
+"add_website.javascript.help" = "這允許您使用 JavaScript 修改網站。盡可能優先使用 CSS。您可以在頂層使用 \"await\"。";
+"add_website.advanced" = "進階";
+"add_website.allow_self_signed" = "允許自簽名憑證";
+
+/* 歡迎介面 */
+"welcome.title" = "歡迎使用 LivePaper！";
+"welcome.message" = "LivePaper 位於選單列中（螢幕右上角的水滴圖示）。點擊它然後選擇\"新增網站...\"開始使用。\n\n如果需要登入網站或進行其他互動操作，請使用\"瀏覽模式\"。\n\n注意：目前對多顯示器的支援僅限於選擇在哪個顯示器上顯示網站。";
+"welcome.continue" = "繼續";
+"welcome.feedback.title" = "歡迎回饋";
+"welcome.feedback.message" = "如果您有任何回饋、錯誤報告或功能建議，請使用應用中的回饋按鈕。我會及時回覆所有提交。";
+"welcome.get_started" = "開始使用 LivePaper";
+
+/* 瀏覽模式提示 */
+"browsing_mode.tip.title" = "瀏覽模式允許您臨時與網站進行互動。例如，登入帳號或捲動到網站上的特定位置。";
+"browsing_mode.tip.message" = "如果您當前看不到網站，可能需要隱藏一些視窗以顯示桌面。";
+
+/* 編輯提示 */
+"edit.tip" = "連按兩下列表中的網站進行編輯，切換深色模式，新增自訂 CSS/JavaScript 等。";
+
+/* 錯誤訊息 */
+"error.invalid_add_url" = "\"add\" 命令的 URL 無效。";
+"error.unsupported_command" = "不支援的命令：\"%@\"。";
+"error.server_not_found" = "無法連接到伺服器";
+
+/* 設定選項 */
+"settings.invert_colors.never" = "永不";
+"settings.invert_colors.always" = "始終";
+"settings.invert_colors.dark_mode" = "深色模式時";
+"settings.invert_colors.title" = "反轉顏色";
+"settings.print_styles" = "使用列印樣式";
+"settings.print_styles.help" = "如果網站有列印樣式（\"@media print\"），則強制使用。一些網站在列印時有更簡單的展示方式，例如 Google 日曆。";
+"settings.css.title" = "CSS";
+"settings.css.help" = "這允許您使用 CSS 修改網站。例如，您可以更改一些顏色或隱藏一些不必要的元素。";
+"settings.more_ideas" = "更多創意";
+"settings.allow_self_signed" = "允許自簽名憑證";
+
+/* 提示訊息 */
+"tooltip.update_url" = "將 LivePaper 中儲存的網站 URL 更新為當前 URL";
+
+/* 對話框按鈕 */
+"dialog.keep" = "保留";
+"dialog.dont_keep" = "不保留";
+"dialog.cancel" = "取消";
+"dialog.revert" = "還原";
+"dialog.done" = "完成";
+"dialog.add" = "新增";
+"dialog.restart_now" = "立即重新啟動";
+"dialog.restart_later" = "稍後重新啟動";
+
+/* 網站相關字串 */
+"website.advanced_settings" = "進階設定";
+"website.allow_self_signed_certificate" = "允許自簽名憑證";
+"website.edit_tip" = "連按兩下列表中的網站進行編輯，切換深色模式，新增自訂 CSS/JavaScript 等。";
+"website.use_print_styles" = "使用列印樣式";
+"website.use_print_styles.help" = "如果網站有列印樣式（\"@media print\"），則強制使用。一些網站在列印時有更簡單的展示方式，例如 Google 日曆。";
+"website.css" = "CSS";
+"website.css.help" = "這允許您使用 CSS 修改網站。例如，您可以更改一些顏色或隱藏一些不必要的元素。";
+"website.javascript" = "JavaScript";
+"website.javascript.help" = "這允許您使用 JavaScript 修改網站。";
+"website.advanced" = "進階";
+"website.invert_colors" = "反轉顏色";
+"website.invert_colors.never" = "永不";
+"website.invert_colors.always" = "始終";
+"website.invert_colors.dark_mode" = "深色模式時";
+"website.invert_colors.help" = "為沒有原生深色模式的網站建立模擬深色模式，透過反轉網站上的所有顏色。"; 
