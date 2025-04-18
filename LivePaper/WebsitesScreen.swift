@@ -3,7 +3,6 @@ import SwiftUI
 struct WebsitesScreen: View {
 	@Environment(\.requestReview) private var requestReview
 	@Default(.websites) private var websites
-//	@State private var selection: Website.ID? // We need two states as selection must be independent from actually opening the editing because of keyboard navigation and accessibility.
 	@State private var editedWebsite: Website.ID?
 	@State private var isAddWebsiteDialogPresented = false
 	@Namespace private var bottomScrollID
@@ -16,10 +15,7 @@ struct WebsitesScreen: View {
 					selection: $editedWebsite
 				)
 			}
-			.id(websites) // Workaround for the row not updating when changing the current active website. It's placed here and not on the row to prevent another issue where adding a new website makes it scroll outside the view. (macOS 15.3)
-//			.onKeyboardShortcut(.defaultAction) {
-//				editedWebsite = selection
-//			}
+			.id(websites)
 			.onChange(of: websites) { oldWebsites, websites in
 				// Check that a website was added.
 				guard websites.count > oldWebsites.count else {
@@ -42,14 +38,13 @@ struct WebsitesScreen: View {
 		}
 		.formStyle(.grouped)
 		.frame(width: 480, height: 500)
-//		.onChange(of: editedWebsite) {
-//			selection = $0
-//		}
-		.sheet(item: $editedWebsite) {
-			AddWebsiteScreen(
-				isEditing: true,
-				website: $websites[id: $0]
-			)
+		.sheet(item: $editedWebsite) { websiteId in
+			if let website = websites.first(where: { $0.id == websiteId }), !website.isBuiltIn {
+				AddWebsiteScreen(
+					isEditing: true,
+					website: $websites[id: websiteId]
+				)
+			}
 		}
 		.sheet(isPresented: $isAddWebsiteDialogPresented) {
 			AddWebsiteScreen(
@@ -61,7 +56,9 @@ struct WebsitesScreen: View {
 			isAddWebsiteDialogPresented = true
 		}
 		.onNotification(.showEditWebsiteDialog) { _ in
-			editedWebsite = WebsitesController.shared.current?.id
+			if let current = WebsitesController.shared.current, !current.isBuiltIn {
+				editedWebsite = current.id
+			}
 		}
 		.toolbar {
 			Button("Add Website", systemImage: "plus") {
@@ -88,7 +85,6 @@ private struct RowView: View {
 	var body: some View {
 		HStack {
 			Label {
-				// TODO: This should use something like `.lineBreakMode = .byCharWrapping` if SwiftUI ever supports that.
 				if let title = website.title.nilIfEmpty {
 					Text(title)
 				}
@@ -103,8 +99,13 @@ private struct RowView: View {
 					.renderingMode(.original)
 					.font(.title2)
 			}
+			if website.isBuiltIn {
+				Image(systemName: "lock.fill")
+					.foregroundStyle(.secondary)
+					.font(.caption)
+			}
 		}
-		.frame(height: 64) // Note: Setting a fixed height prevents a lot of SwiftUI rendering bugs.
+		.frame(height: 64)
 		.padding(.horizontal, 8)
 		.help(website.tooltip)
 		.swipeActions(edge: .leading, allowsFullSwipe: true) {
@@ -114,21 +115,36 @@ private struct RowView: View {
 			.disabled(website.isCurrent)
 		}
 		.contentShape(.rect)
-		.onDoubleClick {
-			selection = website.id
+		.onTapGesture {
+			website.makeCurrent()
 		}
-		.contextMenu { // Must come after `.onDoubleClick`.
+		.onTapGesture(count: 2) {
+			if !website.isBuiltIn {
+				selection = website.id
+			}
+		}
+		.contextMenu {
 			Button(NSLocalizedString("websites.make_current", comment: "")) {
 				website.makeCurrent()
 			}
 			.disabled(website.isCurrent)
-			Divider()
-			Button(NSLocalizedString("websites.edit", comment: "")) {
-				selection = website.id
+			if !website.isBuiltIn {
+				Divider()
+				Button(NSLocalizedString("websites.edit", comment: "")) {
+					selection = website.id
+				}
 			}
 			Divider()
-			Button(NSLocalizedString("websites.delete", comment: ""), role: .destructive) {
-				website.remove()
+			if website.isBuiltIn {
+				Button(NSLocalizedString("websites.delete", comment: ""), role: .destructive) {
+					if let index = WebsitesController.shared.all.firstIndex(where: { $0.id == website.id }) {
+						WebsitesController.shared.all.remove(at: index)
+					}
+				}
+			} else {
+				Button(NSLocalizedString("websites.delete", comment: ""), role: .destructive) {
+					website.remove()
+				}
 			}
 		}
 		.accessibilityElement(children: .combine)
@@ -136,12 +152,16 @@ private struct RowView: View {
 		.if(website.isCurrent) {
 			$0.accessibilityAddTraits(.isSelected)
 		}
-		.accessibilityAction(named: "Edit") { // Doesn't show up in accessibility actions. (macOS 14.0)
-			selection = website.id
+		.accessibilityAction(named: "Edit") {
+			if !website.isBuiltIn {
+				selection = website.id
+			}
 		}
 		.accessibilityRepresentation {
 			Button(website.menuTitle) {
-				selection = website.id
+				if !website.isBuiltIn {
+					selection = website.id
+				}
 			}
 		}
 	}

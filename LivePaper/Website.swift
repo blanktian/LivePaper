@@ -10,6 +10,7 @@ struct Website: Hashable, Codable, Identifiable, Sendable, Defaults.Serializable
 	var css = ""
 	var javaScript = ""
 	@DecodableDefault.False var allowSelfSignedCertificate
+	@DecodableDefault.False var isBuiltIn: Bool
 
 	var subtitle: String { url.humanString }
 
