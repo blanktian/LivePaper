@@ -47,26 +47,26 @@ extension AppState {
 		menu.addSeparator()
 
 		menu.addCallbackItem(NSLocalizedString("menu.send_feedback", comment: "")) {
-			SSApp.openSendFeedbackPage()
+			"https://github.com/blanktian/LivePaper/issues".openURL()
 		}
 
 		menu.addSeparator()
 
-		menu.addLinkItem(NSLocalizedString("menu.examples", comment: ""), destination: "https://github.com/sindresorhus/Plash/discussions/136")
+		// menu.addLinkItem(NSLocalizedString("menu.examples", comment: ""), destination: "https://github.com/sindresorhus/Plash/discussions/136")
 
-		menu.addLinkItem(NSLocalizedString("menu.tips", comment: ""), destination: "https://github.com/sindresorhus/Plash#tips")
+		// menu.addLinkItem(NSLocalizedString("menu.tips", comment: ""), destination: "https://github.com/sindresorhus/Plash#tips")
 
-		menu.addLinkItem(NSLocalizedString("menu.faq", comment: ""), destination: "https://github.com/sindresorhus/Plash#faq")
+		// menu.addLinkItem(NSLocalizedString("menu.faq", comment: ""), destination: "https://github.com/sindresorhus/Plash#faq")
 
-		menu.addLinkItem(NSLocalizedString("menu.scripting", comment: ""), destination: "https://github.com/sindresorhus/Plash#scripting")
+		// menu.addLinkItem(NSLocalizedString("menu.scripting", comment: ""), destination: "https://github.com/sindresorhus/Plash#scripting")
 
-		menu.addLinkItem(NSLocalizedString("menu.website", comment: ""), destination: "https://sindresorhus.com/plash")
+		menu.addLinkItem(NSLocalizedString("menu.website", comment: ""), destination: "https://github.com/blanktian/LivePaper")
 
 		menu.addSeparator()
 
-		menu.addLinkItem(NSLocalizedString("menu.rate_app", comment: ""), destination: "macappstore://apps.apple.com/app/id1494023538?action=write-review")
+		// menu.addLinkItem(NSLocalizedString("menu.rate_app", comment: ""), destination: "macappstore://apps.apple.com/app/id1494023538?action=write-review")
 
-		menu.addMoreAppsItem()
+		// menu.addMoreAppsItem()
 
 		return menu
 	}

@@ -67,7 +67,7 @@ final class WebsitesController {
 		// 随机街景
 		let streetView = add(
 			URL(string: "https://randomstreetview.com/")!,
-			title: "随机街景（中国大陆地区需科学上网）",
+			title: "随机Goole街景",
 			isBuiltIn: true
 		)
 		streetView.wrappedValue.css = """
