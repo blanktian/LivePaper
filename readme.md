@@ -1,6 +1,9 @@
 # LivePaper
 
 <div align="center">
+	<a href="https://github.com/sindresorhus/Plash">
+		<img src="Stuff/AppIcon-readme.png" width="200" height="200">
+	</a>
 	<h1>LivePaper</h1>
 	<p>
 		<b>将任何网页变成 Mac 桌面壁纸</b>
