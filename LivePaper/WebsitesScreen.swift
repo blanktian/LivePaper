@@ -9,32 +9,49 @@ struct WebsitesScreen: View {
 
 	var body: some View {
 		Form {
-			List($websites, editActions: .all) { website in
-				RowView(
-					website: website,
-					selection: $editedWebsite
-				)
-			}
-			.id(websites)
-			.onChange(of: websites) { oldWebsites, websites in
-				// Check that a website was added.
-				guard websites.count > oldWebsites.count else {
-					return
+			// 内置选项 Section
+			Section {
+				ForEach($websites.filter { $0.isBuiltIn.wrappedValue }) { website in
+					RowView(
+						website: website,
+						selection: $editedWebsite
+					)
 				}
-
-				withAnimation {
-//					scrollViewProxy.scrollTo(bottomScrollID, anchor: .top)
+			} header: {
+				Text("推荐网站")
+			}
+			
+			// 用户添加的网站
+			if !websites.filter({ !$0.isBuiltIn }).isEmpty {
+				Section {
+					ForEach($websites.filter { !$0.isBuiltIn.wrappedValue }) { website in
+						RowView(
+							website: website,
+							selection: $editedWebsite
+						)
+					}
+				} header: {
+					Text("我添加的")
 				}
 			}
-			.overlay {
-				if websites.isEmpty {
-					Text(NSLocalizedString("websites.empty", comment: ""))
-						.emptyStateTextStyle()
-				}
+		}
+		.id(websites)
+		.onChange(of: websites) { oldWebsites, websites in
+			guard websites.count > oldWebsites.count else {
+				return
 			}
-			.accessibilityAction(named: NSLocalizedString("websites.add", comment: "")) {
-				isAddWebsiteDialogPresented = true
+			withAnimation {
+//				scrollViewProxy.scrollTo(bottomScrollID, anchor: .top)
 			}
+		}
+		.overlay {
+			if websites.isEmpty {
+				Text(NSLocalizedString("websites.empty", comment: ""))
+					.emptyStateTextStyle()
+			}
+		}
+		.accessibilityAction(named: NSLocalizedString("websites.add", comment: "")) {
+			isAddWebsiteDialogPresented = true
 		}
 		.formStyle(.grouped)
 		.frame(width: 480, height: 500)
@@ -128,20 +145,14 @@ private struct RowView: View {
 				website.makeCurrent()
 			}
 			.disabled(website.isCurrent)
+			
 			if !website.isBuiltIn {
 				Divider()
 				Button(NSLocalizedString("websites.edit", comment: "")) {
 					selection = website.id
 				}
-			}
-			Divider()
-			if website.isBuiltIn {
-				Button(NSLocalizedString("websites.delete", comment: ""), role: .destructive) {
-					if let index = WebsitesController.shared.all.firstIndex(where: { $0.id == website.id }) {
-						WebsitesController.shared.all.remove(at: index)
-					}
-				}
-			} else {
+				
+				Divider()
 				Button(NSLocalizedString("websites.delete", comment: ""), role: .destructive) {
 					website.remove()
 				}
