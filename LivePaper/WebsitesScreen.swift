@@ -35,7 +35,6 @@ struct WebsitesScreen: View {
 				}
 			}
 		}
-		.id(websites)
 		.onChange(of: websites) { oldWebsites, websites in
 			guard websites.count > oldWebsites.count else {
 				return
