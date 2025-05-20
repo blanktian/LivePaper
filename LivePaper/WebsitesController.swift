@@ -47,7 +47,6 @@ final class WebsitesController {
 	private init() {
 		setUpEvents()
 		thumbnailCache.prewarmCacheFromDisk(for: all.map(\.thumbnailCacheKey))
-		
 		// 如果是第一次启动（没有任何网站），添加默认网站
 		if all.isEmpty {
 			addDefaultWebsites()
@@ -163,6 +162,8 @@ final class WebsitesController {
 		.KF4T6b.jKgTF{background-color: rgba(255, 255, 255, 0.1) !important;}
 		.t6NDEb,.p9lUpf{background: #333!important;}
 		.gHQcAb,.uW2Fw-P5QLlc,.dgjdGd .l0fHie,.tB5Jxf-xl07Ob-S5Cmsd{background: #666!important;}
+		.RCXPcd{position: relative!important;}
+		.w48V4c.F262Ye:after {position: absolute;content: "";background-color: rgba(255, 255, 255, 0.1)!important;left: 0;right: 0;top: 0;bottom: 0;z-index: -1;}
 		"""
 
 		// Google Street View

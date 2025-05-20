@@ -9,6 +9,7 @@ final class AppState: ObservableObject {
 	private var retryCount = 0
 	private let maxRetryCount = 6
 	private let retryInterval: TimeInterval = 10
+	private var hasRefreshedAfterNetworkRecovery = false
 
 	let menu = SSMenu()
 	let powerSourceWatcher = PowerSourceWatcher()
@@ -91,6 +92,7 @@ final class AppState: ObservableObject {
 		didSet {
 			if let webViewError {
 				statusItemButton.toolTip = NSLocalizedString("error.server_not_found", comment: "")
+				hasRefreshedAfterNetworkRecovery = false
 
 				if retryCount == 0 {
 					startAutoRetry()
@@ -107,6 +109,14 @@ final class AppState: ObservableObject {
 
 			stopAutoRetry()
 			statusItemButton.contentTintColor = nil
+			
+			// 网络恢复后20秒刷新一次，且只刷新一次
+			if !hasRefreshedAfterNetworkRecovery {
+				hasRefreshedAfterNetworkRecovery = true
+				delay(.seconds(20)) { [self] in
+					loadUserURL()
+				}
+			}
 		}
 	}
 
